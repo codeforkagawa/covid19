@@ -26,10 +26,11 @@ export default {
     return {
       items: [
         {
-          title: '危機対策資金の取扱いについて',
-          link: 'https://www.pref.okayama.jp/page/331085.html',
+          title: '事業者の皆様へ（県公式サイト）',
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#business',
           body:
-            '新型コロナウイルス感染症の影響を受ける中小企業者の資金繰り支援として、信用保証制度の特例措置であるセーフティネット保証４号が発動されたので、危機対策資金の取扱いを開始します。'
+            '商工会議所や中小企業対策相談窓口、関係機関への連絡先等があります。'
         },
         {
           title: '小学校休業等対応助成金の創設について',
@@ -48,13 +49,6 @@ export default {
           link: 'https://www.mhlw.go.jp/stf/newpage_10037.html',
           body:
             '「新型コロナウイルス感染症対策のためのテレワークコース」「職場意識改善特例コース」について、申請の受付を開始しましたので、お知らせいたします。'
-        },
-        {
-          title: '雇用調整助成金の相談窓口について (岡山労働局)',
-          link:
-            'https://jsite.mhlw.go.jp/okayama-roudoukyoku/content/contents/000611698.pdf',
-          body:
-            '県内の各公共職業安定所（ハローワーク）に新型コロナウイルス感染症の影響に伴う雇用調整助成金の相談窓口を開設しました。'
         },
         {
           title: '新型コロナウイルスに関するQ&A (企業の方向け)',

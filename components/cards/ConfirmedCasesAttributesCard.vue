@@ -7,7 +7,9 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'https://www.pref.okayama.jp/page/645925.html#kennaijoukyou'"
+      :url="
+        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+      "
     />
   </v-col>
 </template>

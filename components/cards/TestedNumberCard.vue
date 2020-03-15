@@ -6,9 +6,11 @@
       :chart-id="'time-bar-chart-inspections'"
       :chart-data="contractsGraph"
       :date="Data.inspections_summary.date"
-      comment="※ 3月12日のデータは岡山県が1日ごとの実施値の推移を公開していないため、その日までの累計を入力しています。"
+      comment=""
       :unit="$t('件.tested')"
-      :url="'https://www.pref.okayama.jp/page/645925.html#kennaijoukyou'"
+      :url="
+        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml'
+      "
     />
     <!-- 件.tested = 検査数 -->
   </v-col>

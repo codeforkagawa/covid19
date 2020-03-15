@@ -38,7 +38,7 @@ export default {
           body: [
             this.$t('各保健所にご相談ください'),
             this.$t('「新型コロナウイルス感染症にかかる相談窓口について」'),
-            '<a href="https://www.pref.okayama.jp/page/644784.html" target="_blank" rel="noopener">https://www.pref.okayama.jp/page/644784.html</a>'
+            '<a href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml" target="_blank" rel="noopener">https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml</a>'
           ].join('<br />')
         },
         {

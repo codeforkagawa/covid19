@@ -12,7 +12,7 @@
         <div class="SideNavigation-Logo">
           <img
             src="/logo.svg"
-            :alt="$t('岡山県')"
+            :alt="$t('香川県')"
             style="max-width: 115%; height: auto;"
           />
         </div>
@@ -70,13 +70,14 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('岡山県内の最新感染動向'),
+          title: this.$t('香川県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
           icon: 'covid',
           title: this.$t('感染予防と相談窓口'),
-          link: 'https://www.pref.okayama.jp/page/644784.html'
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml'
         },
         {
           icon: 'parent',
@@ -85,7 +86,7 @@ export default {
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('岡山県民の皆様へ'),
+          title: this.$t('香川県民の皆様へ'),
           link: 'https://www.pref.okayama.jp/page/645925.html#kenmin'
         },
         {
@@ -103,8 +104,8 @@ export default {
           link: this.localePath('/about')
         },
         {
-          title: this.$t('岡山県公式ホームページ'),
-          link: 'https://www.pref.okayama.jp/',
+          title: this.$t('香川県公式ホームページ'),
+          link: 'https://www.pref.kagawa.lg.jp/',
           divider: true
         }
       ]
