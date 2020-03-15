@@ -102,11 +102,7 @@ const config: Configuration = {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    '@nuxtjs/vuetify',
-    '@nuxt/typescript-build',
-    '@nuxtjs/google-analytics'
-  ],
+  buildModules: ['@nuxtjs/vuetify', '@nuxt/typescript-build'],
   /*
    ** Nuxt.js modules
    */

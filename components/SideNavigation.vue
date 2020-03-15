@@ -96,10 +96,6 @@ export default {
           divider: true
         },
         {
-          title: this.$t('知事からのメッセージ'),
-          link: 'https://www.youtube.com/watch?v=Mm-xFX7Csf8'
-        },
-        {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
         },
