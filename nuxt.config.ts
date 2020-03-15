@@ -188,9 +188,6 @@ const config: Configuration = {
       icons: false
     }
   },
-  googleAnalytics: {
-    id: 'UA-98485251-15'
-  },
   build: {
     postcss: {
       plugins: [
