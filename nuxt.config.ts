@@ -56,17 +56,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@fujiwaraizuho'
+        content: '@Luscaca_'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@fujiwaraizuho'
+        content: '@Luscaca_'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://covid19-kagawa.netlify.com/ogp.jpg'
+        content: 'https://covid19-kagawa.netlify.com/ogp.png'
       }
     ],
     link: [
@@ -210,7 +210,7 @@ const config: Configuration = {
   },
   manifest: {
     name: '香川県 新型コロナウイルス感染症対策サイト(非公式)',
-    theme_color: '#eb42b5',
+    theme_color: '#005933',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
