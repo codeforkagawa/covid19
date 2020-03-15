@@ -7,7 +7,7 @@
       :chart-data="contactsGraph"
       :date="Data.contacts.date"
       :unit="$t('件.reports')"
-      comment="※3月12日はそれまでの累計"
+      comment=""
       :url="
         'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml'
       "
