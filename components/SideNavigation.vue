@@ -87,7 +87,8 @@ export default {
         {
           icon: 'mdi-account-multiple',
           title: this.$t('香川県民の皆様へ'),
-          link: 'https://www.pref.okayama.jp/page/645925.html#kenmin'
+          link:
+            'https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#kenmin'
         },
         {
           icon: 'mdi-domain',
