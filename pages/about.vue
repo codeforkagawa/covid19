@@ -121,7 +121,12 @@
     <TextCard :title="$t('お問い合わせ先')">
       {{ $t('香川県 新型コロナウイルス感染症 対策サイト 運営者代表') }}<br />
       {{ $t('メール') }}:
-      <a href="mail:contact@fujishan.jp">contact@fujishan.jp</a>
+      <a href="mail:lusaca.contact@gmail.com">lusaca.contact@gmail.com</a>。
+      または、代表のツイッター
+      <a href="//twitter.com/Luscaca_" target="_blank">
+        {{ $t('@Luscaca_') }}
+      </a>
+      にDMでお願いします。
     </TextCard>
   </div>
 </template>
