@@ -145,15 +145,17 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { MetaInfo } from 'vue-meta'
-export default Vue.extend({
-  head(): MetaInfo {
+import TextCard from '@/components/TextCard.vue'
+export default {
+  components: {
+    TextCard
+  },
+  head() {
     return {
-      title: this.$t('お問い合わせ先一覧') as string
+      title: 'お問い合わせ先一覧'
     }
   }
-})
+}
 </script>
 
 <style lang="scss">
@@ -208,4 +210,4 @@ export default Vue.extend({
     }
   }
 }
-</style>
+</style> 
