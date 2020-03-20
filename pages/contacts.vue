@@ -49,6 +49,7 @@
       >
         香川県公式サイトもご覧ください。
       </a>
+      <br />
       <a href="//www.mhlw.go.jp/content/10900000/000596905.pdf" target="_blank">
         相談・受診の目安（厚生労働省）
       </a>
@@ -94,6 +95,10 @@ table {
 }
 table tr td {
   width: 25%;
+  text-align: center;
+}
+.contacts_else tr td {
+  width: calc(100% / 3);
   text-align: center;
 }
 </style>
