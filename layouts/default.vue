@@ -1,10 +1,12 @@
 <template>
   <v-app class="app">
-    <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="香川県" />
-      <scale-loader color="#005933" />
-    </div>
-    <div v-else-if="hasNavigation" class="appContainer">
+    <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
+      <div class="loader">
+        <img src="/logo.svg" alt="香川県" />
+        <scale-loader color="#005933" />
+      </div>
+    </v-overlay>
+    <div v-if="hasNavigation" class="appContainer">
       <div class="naviContainer">
         <SideNavigation
           :is-navi-open="isOpenNavigation"
@@ -25,14 +27,17 @@
       </v-container>
     </div>
     <NoScript />
+    <development-mode-mark />
   </v-app>
 </template>
+
 <script lang="ts">
 import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 import ScaleLoader from 'vue-spinner/src/ScaleLoader.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
 import NoScript from '@/components/NoScript.vue'
+import DevelopmentModeMark from '@/components/DevelopmentModeMark.vue'
 
 type LocalData = {
   hasNavigation: boolean
@@ -42,6 +47,7 @@ type LocalData = {
 
 export default Vue.extend({
   components: {
+    DevelopmentModeMark,
     ScaleLoader,
     SideNavigation,
     NoScript
@@ -78,7 +84,78 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://covid19-kagawa.netlify.com${this.$route.path}`
+        }
+      ],
+      meta: [
+        {
+          hid: 'author',
+          name: 'author',
+          content: this.$tc('香川県')
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$tc(
+            '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、学生エンジニアが非公式に開設したものです。'
+          )
+        },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content:
+            this.$t('香川県') +
+            ' ' +
+            this.$t('新型コロナウイルス感染症') +
+            ' ' +
+            this.$t('対策サイト(非公式)')
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `https://covid19-kagawa.netlify.com${this.$route.path}`
+        },
+        {
+          hid: 'og:locale',
+          property: 'og:locale',
+          content: this.$i18n.locale
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            this.$t('香川県') +
+            ' ' +
+            this.$t('新型コロナウイルス感染症') +
+            ' ' +
+            this.$t('対策サイト(非公式)')
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$tc(
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県のエンジニアがボランティアで開設したものです。'
+          )
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$tc('ogp.og:image')
+        },
+        {
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+          content:
+            this.$t('香川県') +
+            ' ' +
+            this.$t('新型コロナウイルス感染症') +
+            ' ' +
+            this.$t('対策サイト(非公式)')
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$tc('ogp.og:image')
         }
       ]
     }

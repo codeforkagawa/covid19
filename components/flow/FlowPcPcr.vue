@@ -7,7 +7,7 @@
           <span :class="$style.small">{{ $t('※') }}</span>
         </p>
         <p :class="$style.content">
-          {{ $t('東京都健康安全研究センター等') }}
+          {{ $t('香川県健康安全研究センター等') }}
         </p>
       </div>
     </div>
@@ -21,8 +21,6 @@
     </div>
   </div>
 </template>
-
-<i18n src="./FlowPcPcr.i18n.json"></i18n>
 
 <style module lang="scss">
 .FlowPcPcr {

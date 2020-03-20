@@ -4,7 +4,7 @@
       <div :class="$style.AdvisoryContents">
         <div>
           <span :class="$style.AdvisoryContentsTitle">{{
-            $t('新型コロナ受診相談窓口')
+            $t('新型コロナ受診相談窓口（日本語のみ）')
           }}</span>
         </div>
         <div :class="[$style.AdvisoryContentsColsSentense, 'mt-4']">
@@ -24,6 +24,7 @@
           <div :class="$style.AdvisoryContentsTitle2">
             {{ $t('平日（日中）') }}
           </div>
+          <span>{{ $t('午前8時30分から午後5時15分') }}</span>
           <div
             :class="[
               $style.AdvisoryLink,
@@ -32,11 +33,11 @@
             ]"
           >
             <a
-              href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+              href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
               target="_blank"
               rel="noopener"
             >
-              <span>{{ $t('各保健所の電話番号は福祉保健局HPへ') }}</span>
+              <span>{{ $t('各保健所の電話番号は健康福祉部HPへ') }}</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
@@ -50,29 +51,17 @@
           <div :class="$style.AdvisoryContentsTitle2">
             {{ $t('平日（夜間）') }}
           </div>
-          <span>{{ $t('午後5時から翌朝午前9時') }}</span>
+          <span>{{ $t('午後5時15分から翌朝午前8時30分') }}</span>
         </div>
         <div class="mt-1">
           <span :class="$style.AdvisoryContentsSubTitle">
-            {{ $t('土日祝 終日') }}
+            「新型コロナウイルス感染症の疑い例」の場合は、休日・夜間も同じ番号で保健所夜間受付を経由して相談に応じます。
           </span>
-        </div>
-        <div
-          :class="[
-            $style.AdvisoryTelephoneArea,
-            $style.AdvisoryBlockCentering,
-            'mt-1'
-          ]"
-        >
-          <img src="/flow/phone-24px.svg" />
-          <span :class="$style.AdvisoryTelephone">03-5320-4592</span>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<i18n src="./FlowPcAdvisory.i18n.json"></i18n>
 
 <style module lang="scss">
 .Advisory {
@@ -93,8 +82,6 @@
     font-weight: bold;
     &:not(:first-child) {
       border-top: 0.5px solid $gray-4;
-    }
-    &:not(:last-child) {
     }
     &Title {
       font-size: 26px;
@@ -129,9 +116,24 @@
     display: inline-flex;
   }
   &Telephone {
+    display: flex;
+    align-items: center;
     font-size: 27px;
     font-weight: bold;
-    margin-left: 4px;
+    &:link,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+      color: inherit;
+      text-decoration: none;
+    }
+    &Icon {
+      display: inline-block;
+      margin-right: 5px;
+      width: 26px;
+      height: 26px;
+    }
   }
   &BoxContainer {
     border-radius: 4px;

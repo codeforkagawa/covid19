@@ -1,9 +1,9 @@
 // ==================
 // color
 $green-1: #005933;
-$green-2: #e33bae;
-$green-3: #e35bb8;
-$green-4: #e381c4;
+$green-2: #008830;
+$green-3: #00B849;
+$green-4: #00D154;
 $gray-1: #333333;
 $gray-2: #4D4D4D;
 $gray-3: #808080;
@@ -62,6 +62,11 @@ $z-index-map: (
 }
 @mixin card-h2 {
   @include font-size(19);
+  color: $gray-2;
+  font-weight: bold;
+}
+@mixin card-h3 {
+  @include font-size(16);
   color: $gray-2;
   font-weight: bold;
 }
