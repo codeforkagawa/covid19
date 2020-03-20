@@ -3,59 +3,46 @@
     <h2 class="About-Heading">
       {{ $t('お問い合わせ先一覧') }}
     </h2>
-    <TextCard>
-      {{
-        $t(
-          '当サイトは香川県内の新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために作成されました。'
-        )
-      }}<br />
-      {{
-        $t(
-          '運営・開発は以下の学生エンジニアによってボランティアで行われています。'
-        )
-      }}<br />
-      <br />
-      ・藤原出帆 (
-      <a href="//twitter.com/fujiwaraizuho" target="_blank">
-        {{ $t('@fujiwaraizuho') }}
-      </a>
-      )
-      <br />
-      ・ルサカ (
-      <a href="//twitter.com/Luscaca_" target="_blank">
-        {{ $t('@Luscaca_') }}
-      </a>
-      )
-      <br /><br />
-      複製・改変が許されたオープンソースライセンスで公開されている、
-      <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
-        {{ $t('東京都公式新型コロナウイルス対策サイト') }}
-      </a>
-      の
-      <a href="//github.com/tokyo-metropolitan-gov/covid19" target="_blank">
-        {{ $t('仕組み') }}
-      </a>
-      と
-      <a href="//covid19-okayama.netlify.com/" target="_blank">
-        {{ $t('岡山県新型コロナウイルス感染症対策サイト (非公式)') }}
-      </a>
-      のソースコードを利用しています。
-      <br />
-      <br />
-      {{
-        $t(
-          '香川県による公式情報と客観的な数値をわかりやすく伝えることで、香川県にお住まいの方や、香川県内に拠点を持つ企業の方、香川県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('ブラウザ環境について')">
-      {{ $t('当サイトは以下の環境でご覧いただくことを推奨いたします。') }}<br />
+    <TextCard :title="$t('帰国者・接触者相談センター（保健所）への連絡')">
       <ul class="About-Browser-List">
-        <li>{{ $t('Microsoft Edge 最新版') }}</li>
-        <li>{{ $t('Mozilla Firefox 最新版') }}</li>
-        <li>{{ $t('Google Chrome 最新版（Windows 10以上）') }}</li>
-        <li>{{ $t('Apple Safari (macOS) 最新版') }}</li>
-        <li>{{ $t('Opera Software ASA Opera 最新版') }}</li>
+        <table>
+            <tr>
+                <td>相談窓口</td>
+                <td>電話番号</td>
+                <td>FAX（土日祝除く） </td>
+                <td>開設時間</td>
+            </tr>
+            <tr>
+                <td>小豆保健所</td>
+                <td>0879－62－1373</td>
+                <td>0879－62－1384</td>
+                <td>8時30分～17時15分</td>
+            </tr>
+            <tr>
+                <td>東讃保健所</td>
+                <td>0879－29－8261</td>
+                <td>0879－42－5881</td>
+                <td>8時30分～17時15分</td>
+            </tr>
+            <tr>
+                <td>中讃保健所</td>
+                <td>0877－24－9962</td>
+                <td>0877－24－8341</td>
+                <td>8時30分～17時15分</td>
+            </tr>
+            <tr>
+                <td>西讃保健所</td>
+                <td>0875－25－2052</td>
+                <td>0875－25－6320</td>
+                <td>8時30分～17時15分</td>
+            </tr>
+            <tr>
+                <td>高松市保健所</td>
+                <td>087－839－2870 </td>
+                <td>087－839－2879</td>
+                <td>8時30分～17時15分</td>
+            </tr>
+        </table>
       </ul>
       {{
         $t(
