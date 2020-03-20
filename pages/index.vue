@@ -7,46 +7,42 @@
     />
     <whats-new class="mb-4" :items="newsItems" />
     <v-row class="DataBlock">
+      <confirmed-cases-details-card />
       <confirmed-cases-number-card />
-      <tested-number-card />
       <confirmed-cases-attributes-card />
+      <tested-number-card />
       <telephone-advisory-reports-number-card />
+      <consultation-desk-reports-number-card />
     </v-row>
   </div>
 </template>
 
-<i18n src="./index.i18n.json"></i18n>
-
-<script>
+<script lang="ts">
+import Vue from 'vue'
+import { MetaInfo } from 'vue-meta'
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
-// import formatGraph from '@/utils/formatGraph'
-// import formatTable from '@/utils/formatTable'
 import News from '@/data/news.json'
+import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 
-export default {
+export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
+    ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
     TestedNumberCard,
-    TelephoneAdvisoryReportsNumberCard
+    TelephoneAdvisoryReportsNumberCard,
+    ConsultationDeskReportsNumberCard
   },
   data() {
-    // 退院者グラフ
-    // const dischargesGraph = formatGraph(Data.discharges_summary.data)
-    // 死亡者数
-    // #MEMO: 今後使う可能性あるので一時コメントアウト
-    // const fatalitiesTable = formatTable(
-    //   Data.patients.data.filter(patient => patient['備考'] === '死亡')
-    // )
-
     const data = {
       Data,
       headerItem: {
@@ -58,12 +54,12 @@ export default {
     }
     return data
   },
-  head() {
+  head(): MetaInfo {
     return {
-      title: this.$t('香川県内の最新感染動向')
+      title: this.$t('香川県内の最新感染動向') as string
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>

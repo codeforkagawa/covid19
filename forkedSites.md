@@ -4,7 +4,7 @@
 
 都道府県名 | 公開サイト | プロジェクト
 ------------ | ------------- | -------------
-東京都(このサイト)|https://stopcovid19.metro.tokyo.lg.jp|[tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19)|
+東京都(このサイト)|https://covid19-kagawa.netlify.com|[tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19)|
 北海道|https://stopcovid19.hokkaido.dev/|[codeforsapporo/covid19](https://github.com/codeforsapporo/covid19)|
 神奈川県|https://www.pref.kanagawa.jp/osirase/1369/| |
 岐阜県|https://covid19-gifu.netlify.com/|[CODE-for-GIFU/covid19](https://github.com/CODE-for-GIFU/covid19)|

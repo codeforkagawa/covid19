@@ -1,26 +1,19 @@
-# 東京都 新型コロナウイルス感染症対策サイト
+# 香川県(非公式) 新型コロナウイルス感染症対策サイト
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+[![香川県 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://covid19-kagawa.netlify.com/)
 
-[![東京都 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
-
-### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md)
+### 日本語 | [English](./README_EN.md)
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
 
 詳しくは[貢献の仕方](./.github/CONTRIBUTING.md)を御覧ください。
 
-
 ## 行動原則
 詳しくは[サイト構築にあたっての行動原則](./.github/CODE_OF_CONDUCT.md)を御覧ください。
 
 ## ライセンス
 本ソフトウェアは、[MITライセンス](./LICENSE.txt)の元提供されています。
-
-## このサイトから派生したサイト
-
-[Link先](./forkedSites.md)を御覧ください。
 
 ## 開発者向け情報
 
@@ -55,10 +48,29 @@ $ yarn install
 $ docker-compose run --rm app yarn install
 ```
 
+### 本番環境/その他の判定
+
+`process.env.GENERATE_ENV` の値が、本番の場合は`'production'`に、それ以外の場合は `'development'` になっています。  
+テスト環境のみで実行したい処理がある場合はこちらの値をご利用ください。
+
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19.metro.tokyo.lg.jp/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://covid19-kagawa.netlify.com/ が更新されます。
 
-`staging` ブランチがアップデートされると、自動的に `gh-pages` ブランチにHTML類がbuildされます。そして、ステージングサイト https://stg-covid19-tokyo.netlify.com/ が更新されます。
+`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-kagawa.netlify.com/ が更新されます。
 
-`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://dev-covid19-tokyo.netlify.com/ が更新されます。
+### ブランチルール
+
+development 以外は Pull Request は禁止です。  
+Pull Request を送る際の branch は、以下のネーミングルールでお願いします。
+
+機能追加系： feature/#{ISSUE_ID}-#{branch_title_name}  
+ホットフィックス系: hotfix/#{ISSUE_ID}-#{branch_title_name}
+
+#### 基本的なブランチ
+| 目的 | ブランチ | 確認URL | 備考 |
+| ---- | -------- | ---- | ---- |
+| 開発 | development | http://covid19-kagawa-dev.netlify.com/ | base branch。基本はこちらに Pull Requestを送ってください |
+| 本番 | master | https://covid19-kagawa.netlify.com/ | 管理者以外の Pull Request は禁止です |
+
+

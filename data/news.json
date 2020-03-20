@@ -1,9 +1,34 @@
 {
     "newsItems": [
         {
-            "date": "2020\/03\/17",
-            "url": "https://www3.nhk.or.jp/news/html/20200317/k10012335661000.html",
-            "text": "感染者が確認されました。"
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir6\/dir6_2\/dir6_2_6\/wpbb9b200318185200.shtml",
+            "text": "新型コロナウイルス感染症の影響により事業活動に支障が生じている中小企業者の方へ（危機関連融資）"
+        },
+        {
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_2\/w4ug21200315195814.shtml",
+            "text": "事業者の皆さまへ　－新型コロナウイルス感染症（COVID－19）に関する情報"
+        },
+        {
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_2\/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
+        },
+        {
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_2\/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_2\/wt5q49200131182439.shtml",
+            "text": "新型コロナウイルス感染症（COVID－19）に関する情報"
+        },
+        {
+            "date": "3\/18\/2020",
+            "url": "http:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wwf4tq200311154937.shtml",
+            "text": "香川県新型コロナウイルス対策本部等"
         }
     ]
 }
