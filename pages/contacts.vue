@@ -80,9 +80,7 @@ export default {
   }
 }
 table tr td {
-  margin-right: 10px;
-}
-table tr:first td {
-  border-bottom: #005933 1px solid;
+  width: 25%;
+  text-align: center;
 }
 </style>
