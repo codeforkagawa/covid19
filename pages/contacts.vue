@@ -79,6 +79,9 @@ export default {
     padding: 12px 0;
   }
 }
+table {
+  width: 100%;
+}
 table tr td {
   width: 25%;
   text-align: center;
