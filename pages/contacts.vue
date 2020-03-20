@@ -1,132 +1,147 @@
 <template>
   <div class="About">
     <h2 class="About-Heading">
-      {{ $t('当サイトについて') }}
+      {{ $t('連絡先一覧') }}
     </h2>
-    <TextCard>
-      {{
-        $t(
-          '当サイトは香川県内の新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために作成されました。'
-        )
-      }}<br />
-      {{
-        $t(
-          '運営・開発は以下の学生エンジニアによってボランティアで行われています。'
-        )
-      }}<br />
-      <br />
-      ・藤原出帆 (
-      <a href="//twitter.com/fujiwaraizuho" target="_blank">
-        {{ $t('@fujiwaraizuho') }}
-      </a>
-      )
-      <br />
-      ・ルサカ (
-      <a href="//twitter.com/Luscaca_" target="_blank">
-        {{ $t('@Luscaca_') }}
-      </a>
-      )
-      <br /><br />
-      複製・改変が許されたオープンソースライセンスで公開されている、
-      <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
-        {{ $t('東京都公式新型コロナウイルス対策サイト') }}
-      </a>
-      の
-      <a href="//github.com/tokyo-metropolitan-gov/covid19" target="_blank">
-        {{ $t('仕組み') }}
-      </a>
-      と
-      <a href="//covid19-okayama.netlify.com/" target="_blank">
-        {{ $t('岡山県新型コロナウイルス感染症対策サイト (非公式)') }}
-      </a>
-      のソースコードを利用しています。
-      <br />
-      <br />
-      {{
-        $t(
-          '香川県による公式情報と客観的な数値をわかりやすく伝えることで、香川県にお住まいの方や、香川県内に拠点を持つ企業の方、香川県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('ブラウザ環境について')">
-      {{ $t('当サイトは以下の環境でご覧いただくことを推奨いたします。') }}<br />
-      <ul class="About-Browser-List">
-        <li>{{ $t('Microsoft Edge 最新版') }}</li>
-        <li>{{ $t('Mozilla Firefox 最新版') }}</li>
-        <li>{{ $t('Google Chrome 最新版（Windows 10以上）') }}</li>
-        <li>{{ $t('Apple Safari (macOS) 最新版') }}</li>
-        <li>{{ $t('Opera Software ASA Opera 最新版') }}</li>
-      </ul>
-      {{
-        $t(
-          '※ 推奨環境以外で利用された場合や、推奨環境下でもご利用のブラウザの設定等によっては、正しく表示されない場合がありますのでご了承ください。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('当サイトへのリンクについて')">
-      {{ $t('当サイトへのリンクは自由です。') }}
-    </TextCard>
-    <TextCard :title="$t('JavaScriptについて')">
-      {{ $t('当サイトではJavaScriptを使用しております。') }}<br />
-      {{
-        $t(
-          'JavaScriptを無効にして使用された場合、各ページが正常に動作しない、または、表示されない場合がございます。'
-        )
-      }}<br />
-      {{
-        $t(
-          '当サイトをご利用の際には、JavaScriptを有効にして頂きますようお願いいたします。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('クッキー (Cookie) について')">
-      {{ $t('当サイトの一部ではクッキーを使用しています。') }}<br />
-      {{
-        $t(
-          'クッキーとは、Webコンテンツからの要求で利用者の手元の端末に一時的に保存されるデータのことで、当サイトでは利用状況の把握のためにクッキーを使用する場合があります。'
-        )
-      }}<br />
-      <br />
-      {{
-        $t(
-          'ブラウザに関する情報の収集を希望しない場合は、インターネット閲覧ソフト（ブラウザ）をご自身で設定することにより、クッキーの機能が働かないようにすることも可能です。'
-        )
-      }}<br />
-      <br />
-      {{
-        $t(
-          'ただし、クッキーを受け入れない設定をされている場合は、当サイトの機能が正常に動作しない場合がございます。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('免責事項')">
-      {{
-        $t(
-          '当サイトに掲載されている情報の正確性については万全を期していますが、香川県やサイト運営者は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
-        )
-      }}<br />
-      <br />
-      {{
-        $t(
-          'また、利用者が当サイトを利用したことにより発生した利用者の損害及び利用者が第三者に与えた損害に対して、責任を負うものではありません。'
-        )
-      }}<br />
-      <br />
-      {{
-        $t(
-          '当サイトに掲載されている情報は、予告なしに変更又は削除することがあります。'
-        )
-      }}
-    </TextCard>
-    <TextCard :title="$t('お問い合わせ先')">
-      {{ $t('香川県 新型コロナウイルス感染症 対策サイト 運営者代表') }}<br />
-      {{ $t('メール') }}:
-      <a href="mail:lusaca.contact@gmail.com">lusaca.contact@gmail.com</a>。
-      または、代表のツイッター
-      <a href="//twitter.com/Luscaca_" target="_blank">
-        {{ $t('@Luscaca_') }}
-      </a>
-      にDMでお願いします。
+      <TextCard :title="$t('相談窓口（帰国者・接触者相談センター）の連絡先一覧')">
+      <div class="Contacts-Card">
+      <v-simple-table class="Contacts-Card-Table">
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th class="text-center">{{ $t('お問い合わせ内容') }}</th>
+              <th class="text-center">{{ $t('局名') }}</th>
+              <th class="text-center">{{ $t('電話番号') }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="content">感染症に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19500.shtml"
+                  >薬務感染症対策課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3302</a></td>
+            </tr>
+            <tr>
+              <td class="content">高齢者施設に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19200.shtml"
+                  >長寿社会対策課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3268">087-832-3268</a></td>
+            </tr>
+            <tr>
+              <td class="content">障害児・者施設に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19400.shtml"
+                  >障害福祉課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3293</a></td>
+            </tr>
+            <tr>
+              <td class="content">
+                児童福祉施設（入所）に関すること（障害児施設を除く）
+              </td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19300.shtml"
+                  >子ども家庭課（児童家庭グループ）</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3286</a></td>
+            </tr>
+            <tr>
+              <td class="content">
+                保育施設に関すること（放課後児童クラブを含む）
+              </td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19300.shtml"
+                  >子ども家庭課（保育所グループ）</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3284</a></td>
+            </tr>
+            <tr>
+              <td class="content">県主催行事の開催基準に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec19100.shtml"
+                  >健康福祉総務課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3252</a></td>
+            </tr>
+            <tr>
+              <td class="content">観光に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec10520.shtml"
+                  >観光振興課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3360</a></td>
+            </tr>
+            <tr>
+              <td class="content">中小企業の経営に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec15710.shtml"
+                  >経営支援課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3343</a></td>
+            </tr>
+            <tr>
+              <td class="content">労働や雇用に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec15710.shtml"
+                  >労働政策課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3371</a></td>
+            </tr>
+            <tr>
+              <td class="content">県立中学校、高等学校に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec31400.shtml"
+                  >高校教育課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3750</a></td>
+            </tr>
+            <tr>
+              <td class="content">県立特別支援学校に関すること</td>
+              <td class="bureau">
+                <a
+                  href="https://www.pref.kagawa.lg.jp/content/etc/sec/sec31500.shtml"
+                  >特別支援教育課</a
+                >
+              </td>
+              <td class="tel"><a href="tel:087-832-3302">087-832-3757</a></td>
+            </tr>
+            <tr>
+              <td class="content">上記以外の内容</td>
+              <td class="bureau" colspan="2">
+                「<a
+                  href="https://www.pref.kagawa.lg.jp/content/koho/kohosonota/soudan.shtml"
+                  >各種相談窓口のご案内</a
+                >」のページをご覧ください。
+              </td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+      </div>
     </TextCard>
   </div>
 </template>
