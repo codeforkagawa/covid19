@@ -3,46 +3,54 @@
     <h2 class="About-Heading">
       {{ $t('お問い合わせ先一覧') }}
     </h2>
-    <TextCard :title="$t('帰国者・接触者相談センター（保健所）への連絡')">
-      <ul class="About-Browser-List">
-        <table>
-            <tr>
-                <td>相談窓口</td>
-                <td>電話番号</td>
-                <td>FAX（土日祝除く） </td>
-                <td>開設時間</td>
-            </tr>
-            <tr>
-                <td>小豆保健所</td>
-                <td>0879－62－1373</td>
-                <td>0879－62－1384</td>
-                <td>8時30分～17時15分</td>
-            </tr>
-            <tr>
-                <td>東讃保健所</td>
-                <td>0879－29－8261</td>
-                <td>0879－42－5881</td>
-                <td>8時30分～17時15分</td>
-            </tr>
-            <tr>
-                <td>中讃保健所</td>
-                <td>0877－24－9962</td>
-                <td>0877－24－8341</td>
-                <td>8時30分～17時15分</td>
-            </tr>
-            <tr>
-                <td>西讃保健所</td>
-                <td>0875－25－2052</td>
-                <td>0875－25－6320</td>
-                <td>8時30分～17時15分</td>
-            </tr>
-            <tr>
-                <td>高松市保健所</td>
-                <td>087－839－2870 </td>
-                <td>087－839－2879</td>
-                <td>8時30分～17時15分</td>
-            </tr>
+    <TextCard>
+      <table>
+          <tr>
+            <td>相談窓口</td>
+            <td>電話番号</td>
+            <td>FAX（土日祝除く）	</td>
+            <td>開設時間</td>
+          </tr>
+          <tr>
+            <td>小豆保健所</td>
+            <td>0879－62－1373</td>
+            <td>0879－62－1384</td>
+            <td>8時30分～17時15分</td>
+          </tr>
+          <tr>
+            <td>東讃保健所</td>
+            <td>0879－29－8261</td>
+            <td>0879－42－5881</td>
+            <td>8時30分～17時15分</td>
+          </tr>
+          <tr>
+            <td>中讃保健所</td>
+            <td>0877－24－9962</td>
+            <td>0877－24－8341</td>
+            <td>8時30分～17時15分</td>
+          </tr>
+          <tr>
+            <td>西讃保健所</td>
+            <td>0875－25－2052</td>
+            <td>0875－25－6320</td>
+            <td>8時30分～17時15分</td>
+          </tr>
+          <tr>
+            <td>高松市保健所</td>
+            <td>087－839－2870	</td>
+            <td>087－839－2879</td>
+            <td>8時30分～17時15分</td>
+          </tr>
         </table>
+    </TextCard>
+    <TextCard :title="$t('ブラウザ環境について')">
+      {{ $t('当サイトは以下の環境でご覧いただくことを推奨いたします。') }}<br />
+      <ul class="About-Browser-List">
+        <li>{{ $t('Microsoft Edge 最新版') }}</li>
+        <li>{{ $t('Mozilla Firefox 最新版') }}</li>
+        <li>{{ $t('Google Chrome 最新版（Windows 10以上）') }}</li>
+        <li>{{ $t('Apple Safari (macOS) 最新版') }}</li>
+        <li>{{ $t('Opera Software ASA Opera 最新版') }}</li>
       </ul>
       {{
         $t(
