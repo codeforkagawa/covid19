@@ -1,7 +1,7 @@
 <template>
   <div class="About">
     <h2 class="About-Heading">
-      {{ $t("お問い合わせ先一覧") }}
+      {{ $t('当サイトについて') }}
     </h2>
     <TextCard>
       {{
