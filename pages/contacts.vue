@@ -79,7 +79,10 @@ export default {
     padding: 12px 0;
   }
 }
-table tr th {
+table tr td {
   margin-right: 10px;
+}
+table tr:first td {
+  border-bottom: #005933 1px solid;
 }
 </style>
