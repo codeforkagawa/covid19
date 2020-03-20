@@ -1,7 +1,7 @@
 <template>
   <div class="About">
     <h2 class="About-Heading">
-      {{ $t('当サイトについて') }}
+      {{ $t('お問い合わせ先一覧') }}
     </h2>
     <TextCard>
       {{
@@ -142,7 +142,7 @@ export default {
   },
   head() {
     return {
-      title: '当サイトについて'
+      title: 'お問い合わせ先一覧'
     }
   }
 }
