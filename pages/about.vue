@@ -26,7 +26,13 @@
         {{ $t('@Luscaca_') }}
       </a>
       )
-      <br /><br />
+      <br />
+      ・なんぞー (
+      <a href="//twitter.com/nandehu0323" target="_blank">
+        {{ $t('@nandehu0323') }}
+      </a>
+      )
+      <br />
       複製・改変が許されたオープンソースライセンスで公開されている、
       <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
         {{ $t('東京都公式新型コロナウイルス対策サイト') }}

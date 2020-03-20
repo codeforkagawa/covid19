@@ -42,6 +42,16 @@
           <td>8時30分～17時15分</td>
         </tr>
       </table>
+
+      <a
+        href="//www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hokensyo"
+        target="_blank"
+      >
+        香川県公式サイトもご覧ください。
+      </a>
+      <a href="//www.mhlw.go.jp/content/10900000/000596905.pdf" target="_blank">
+        相談・受診の目安（厚生労働省）
+      </a>
     </TextCard>
   </div>
 </template>
