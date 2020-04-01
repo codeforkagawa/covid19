@@ -1,14 +1,14 @@
 {
     "newsItems": [
         {
+            "date": "3\/30\/2020",
+            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wazlqj200330235511.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生について（2例目）"
+        },
+        {
             "date": "3\/27\/2020",
             "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/covid19_lineaccount.shtml",
             "text": "新型コロナウイルスに関する情報提供や県民からの質問にチャットボットがお答えするLINEアカウントの開設について"
-        },
-        {
-            "date": "3\/23\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_2\/w3k150200315183532.shtml",
-            "text": "これまでの主な経過 -新型コロナウイルス感染症に対する主な対応状況"
         }
     ]
 }
