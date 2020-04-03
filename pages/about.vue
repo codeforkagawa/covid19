@@ -25,6 +25,11 @@
       <a href="//twitter.com/Luscaca_" target="_blank">
         {{ $t('@Luscaca_') }}
       </a>
+      <br />
+      ・なんぞー (
+      <a href="//twitter.com/nandehu0323" target="_blank">
+        {{ $t('@nandehu0323') }}
+      </a>
       )
       <br />
       ・なんぞー (
