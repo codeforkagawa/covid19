@@ -12,7 +12,7 @@
       </style>
       <div class="noscript-heading">
         <img src="/logo.svg" :alt="$t('香川県')" />
-        {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
+        {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('非公式対策サイト') }}
       </div>
       <div class="noscript-body">
         {{ $t('当サイトではJavaScriptを使用しております。') }}<br />

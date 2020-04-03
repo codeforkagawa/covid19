@@ -18,6 +18,7 @@
   font-weight: bold;
   font-size: 60px;
   line-height: 90px;
+
   /* identical to box height */
 
   text-align: center;
@@ -29,6 +30,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 90px;
+
   /* identical to box height */
 
   text-align: center;

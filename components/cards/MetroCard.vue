@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <metro-bar-chart
-      :title="$t('都営地下鉄の利用者数の推移')"
+      :title="$t('県営地下鉄の利用者数の推移')"
       :title-id="'predicted-number-of-toei-subway-passengers'"
       :chart-id="'metro-bar-chart'"
       :chart-data="metroGraph"
@@ -17,7 +17,7 @@
           })
         }}
         <br />
-        *{{ $t('都営地下鉄4路線の自動改札出場数') }}
+        *{{ $t('県営地下鉄4路線の自動改札出場数') }}
         <br />
         {{
           $t(
@@ -39,7 +39,7 @@ export default {
     MetroBarChart
   },
   data() {
-    // 都営地下鉄の利用者数の推移
+    // 県営地下鉄の利用者数の推移
     const metroGraph = MetroData
     for (const dataset of metroGraph.datasets) {
       dataset.label = this.getWeekLabel(dataset.label)

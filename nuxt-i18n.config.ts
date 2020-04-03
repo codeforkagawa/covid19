@@ -24,7 +24,8 @@ export default {
       code: 'en',
       name: 'English',
       iso: 'en-US',
-      file: 'en.json'
+      file: 'en.json',
+      description: 'English'
     },
     // {
     //   code: 'zh-cn',

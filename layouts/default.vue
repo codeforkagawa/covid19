@@ -95,7 +95,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://covid19-kagawa.netlify.com${this.$route.path}`
         },
         {
           rel: 'stylesheet',
@@ -112,7 +112,7 @@ export default Vue.extend({
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、学生エンジニアが非公式に開設したものです。'
+            '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、香川県の学生エンジニアがボランティアで開設したものです。'
           )
         },
         {
@@ -123,12 +123,12 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト(非公式)')
+            this.$t('非公式対策サイト')
         },
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          content: `https://covid19-kagawa.netlify.com${this.$route.path}`
         },
         ogLocale,
         {
@@ -139,13 +139,13 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト(非公式)')
+            this.$t('非公式対策サイト')
         },
         {
           hid: 'og:description',
           property: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県のエンジニアがボランティアで開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、香川県の学生エンジニアがボランティアで開設したものです。'
           )
         },
         {
@@ -161,7 +161,7 @@ export default Vue.extend({
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
-            this.$t('対策サイト(非公式)')
+            this.$t('非公式対策サイト')
         },
         {
           hid: 'twitter:image',

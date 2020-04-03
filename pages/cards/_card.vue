@@ -103,11 +103,11 @@ export default {
         updatedAt = Data.querents.date
         break
       case 'predicted-number-of-toei-subway-passengers':
-        title = this.$t('都営地下鉄の利用者数の推移')
+        title = this.$t('県営地下鉄の利用者数の推移')
         updatedAt = MetroData.date
         break
       case 'agency':
-        title = this.$t('都庁来庁者数の推移')
+        title = this.$t('県庁来庁者数の推移')
         updatedAt = agencyData.date
         break
     }
@@ -146,7 +146,7 @@ export default {
             this.$t('香川県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
-            this.$t('対策サイト')
+            this.$t('非公式対策サイト')
         },
         {
           hid: 'description',

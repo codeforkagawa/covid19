@@ -1,7 +1,7 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "香川県 新型コロナウイルス感染症対策サイト",
+  "description": "香川県 新型コロナウイルス感染症非公式対策サイト",
   "author": "香川県",
   "private": true,
   "engines": {
@@ -28,11 +28,6 @@
       "eslint --fix"
     ],
     "*.{css,scss,vue}": "stylelint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "sh pre-commit.sh && lint-staged"
-    }
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",

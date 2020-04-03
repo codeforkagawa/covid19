@@ -38,51 +38,93 @@
         <li>{{ $t('各保健所にご相談ください') }}</li>
         <li>
           {{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}<br />
-          <table summary="相談窓口（帰国者・接触者相談センター）連絡先一覧">
-            <tbody>
+          <table class="Contacts-Card-Table" v-bind="tableAttrs">
+            <thead>
               <tr>
-                <th>
-                  <strong>相談窓口</strong>
+                <th class="text-center" scope="col">
+                  {{ $t('相談窓口') }}
                 </th>
-                <th>
-                  <strong>電話番号</strong>
+                <th class="text-center" scope="col">
+                  {{ $t('電話番号') }}
                 </th>
-                <th>
-                  <strong>FAX（土日祝除く）</strong>
+                <th class="text-center" scope="col">
+                  {{ $t('FAX（土日祝除く）') }}
                 </th>
-                <th>
-                  <strong>開設時間</strong>
+                <th class="text-center" scope="col">
+                  {{ $t('開設時間') }}
                 </th>
               </tr>
+            </thead>
+            <tbody style="text-align: center;">
               <tr>
-                <td>小豆保健所</td>
-                <td>0879－62－1373</td>
-                <td>0879－62－1384</td>
-                <td>8時30分～17時15分</td>
+                <td class="content">
+                  {{ $t('小豆保健所') }}
+                </td>
+                <td class="tel">
+                  <a href="tel:0879-62-1373">0879-62-1373</a>
+                </td>
+                <td class="tel">
+                  0879-62-1384
+                </td>
+                <td class="bureau">
+                  {{ $t('8時30分～17時15分') }}
+                </td>
               </tr>
               <tr>
-                <td>東讃保健所</td>
-                <td>0879－29－8261</td>
-                <td>0879－42－5881</td>
-                <td>8時30分～17時15分</td>
+                <td class="content">
+                  {{ $t('東讃保健所') }}
+                </td>
+                <td class="tel">
+                  <a href="tel:0879-29-8261">0879-29-8261</a>
+                </td>
+                <td class="tel">
+                  0879-42-5881
+                </td>
+                <td class="bureau">
+                  {{ $t('8時30分～17時15分') }}
+                </td>
               </tr>
               <tr>
-                <td>中讃保健所</td>
-                <td>0877－24－9962</td>
-                <td>0877－24－8341</td>
-                <td>8時30分～17時15分</td>
+                <td class="content">
+                  {{ $t('中讃保健所') }}
+                </td>
+                <td class="tel">
+                  <a href="tel:0877-24-9962">0877-24-9962</a>
+                </td>
+                <td class="tel">
+                  0877-24-8341
+                </td>
+                <td class="bureau">
+                  {{ $t('8時30分～17時15分') }}
+                </td>
               </tr>
               <tr>
-                <td>西讃保健所</td>
-                <td>0875－25－2052</td>
-                <td>0875－25－6320</td>
-                <td>8時30分～17時15分</td>
+                <td class="content">
+                  {{ $t('西讃保健所') }}
+                </td>
+                <td class="tel">
+                  <a href="tel:0875-25-2052">0875-25-2052</a>
+                </td>
+                <td class="tel">
+                  0875-25-6320
+                </td>
+                <td class="bureau">
+                  {{ $t('8時30分～17時15分') }}
+                </td>
               </tr>
               <tr>
-                <td>高松市保健所</td>
-                <td>087－839－2870</td>
-                <td>087－839－2879</td>
-                <td>8時30分～17時15分</td>
+                <td class="content">
+                  {{ $t('高松市保健所') }}
+                </td>
+                <td class="tel">
+                  <a href="tel:087-839-2870">087-839-2870</a>
+                </td>
+                <td class="tel">
+                  087-839-2879
+                </td>
+                <td class="bureau">
+                  {{ $t('8時30分～17時15分') }}
+                </td>
               </tr>
             </tbody>
           </table>

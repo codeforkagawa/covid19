@@ -2,13 +2,13 @@
   <div class="Worker">
     <page-header class="mb-3">
       {{ $t('企業の皆様・はたらく皆様へ') }}
-    </h2>
+    </page-header>
     <StaticCard>
       <h3>
         <a
           href="https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wt5q49200131182439.shtml#business"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           >{{ $t('事業者の皆様へ（県公式サイト）') }}</a
         >
       </h3>
@@ -25,7 +25,7 @@
         <a
           href="https://www.mhlw.go.jp/stf/newpage_10059.html"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           >{{ $t('小学校休業等対応助成金の創設について') }}</a
         >
       </h3>
@@ -42,7 +42,7 @@
         <a
           href="http://acsa.jp/htm/news/2020022803.htm"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           >{{ $t('ベビーシッター派遣事業の取扱いについて') }}</a
         >
       </h3>
@@ -59,7 +59,7 @@
         <a
           href="https://www.mhlw.go.jp/stf/newpage_10037.html"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           >{{
             $t('時間外労働等改善助成金の特例的なコースの申請受付開始について')
           }}</a
@@ -78,7 +78,7 @@
         <a
           href="https://www.hataraku.metro.kagawa.jp/kansensyo/index.html"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           >{{ $t('新型コロナウイルスに関するQ&A (企業の方向け)') }}</a
         >
       </h3>

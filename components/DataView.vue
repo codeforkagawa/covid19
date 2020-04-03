@@ -245,7 +245,7 @@ export default Vue.extend({
         ' / ' +
         this.$t('香川県') +
         this.$t('新型コロナウイルス感染症') +
-        this.$t('対策サイト') +
+        this.$t('非公式対策サイト') +
         '&url=' +
         this.permalink(true) +
         '&' +

@@ -25,6 +25,7 @@
       <a href="//twitter.com/Luscaca_" target="_blank">
         {{ $t('@Luscaca_') }}
       </a>
+      )
       <br />
       ・なんぞー (
       <a href="//twitter.com/nandehu0323" target="_blank">
@@ -32,15 +33,10 @@
       </a>
       )
       <br />
-      ・なんぞー (
-      <a href="//twitter.com/nandehu0323" target="_blank">
-        {{ $t('@nandehu0323') }}
-      </a>
-      )<br />
       <br />
       複製・改変が許されたオープンソースライセンスで公開されている、
       <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
-        {{ $t('東京都公式新型コロナウイルス対策サイト') }}
+        {{ $t('東京都公式新型コロナウイルス公式対策サイト') }}
       </a>
       の
       <a href="//github.com/tokyo-metropolitan-gov/covid19" target="_blank">
@@ -48,7 +44,7 @@
       </a>
       と
       <a href="//covid19-okayama.netlify.com/" target="_blank">
-        {{ $t('岡山県新型コロナウイルス感染症対策サイト (非公式)') }}
+        {{ $t('岡山県新型コロナウイルス感染症非公式対策サイト (非公式)') }}
       </a>
       のソースコードを利用しています。
       <br />
@@ -194,7 +190,7 @@
       <p>
         {{
           $t(
-            '当サイトに掲載されている情報の正確性については万全を期していますが、東京都は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
+            '当サイトに掲載されている情報の正確性については万全を期していますが、香川県は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
           )
         }}
       </p>
@@ -221,11 +217,11 @@
       >
         <template v-slot:catalogWebsite>
           <a
-            href="https://portal.data.metro.tokyo.lg.jp/"
+            href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {{ $t('東京都オープンデータカタログサイト') }}
+            {{ $t('香川県感染症情報サイト') }}
           </a>
         </template>
       </i18n>
@@ -241,7 +237,7 @@
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <template v-slot:githubRepo>
             <a
-              href="https://github.com/tokyo-metropolitan-gov/covid19"
+              href="https://github.com/codeforkagawa/covid19"
               target="_blank"
               rel="noopener noreferrer"
             >

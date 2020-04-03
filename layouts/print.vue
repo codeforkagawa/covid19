@@ -1,7 +1,7 @@
 <template>
   <v-app class="app-print">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="東京都" />
+      <img src="/logo.svg" alt="香川県" />
       <scale-loader color="#005933" />
     </div>
     <v-container v-else>
@@ -9,10 +9,12 @@
         <v-col :cols="12" :sm="6">
           <div class="PrintMeta-HeadingWrapper">
             <div class="PrintMeta-Logo">
-              <img src="/logo.svg" :alt="$t('東京都')" />
+              <img src="/logo.svg" :alt="$t('香川県')" />
             </div>
             <h1 class="PrintMeta-Heading">
-              {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
+              {{ $t('新型コロナウイルス感染症') }}<br />{{
+                $t('非公式対策サイト')
+              }}
             </h1>
           </div>
         </v-col>

@@ -13,11 +13,11 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.svg"
-            :alt="$t('東京都')"
+            :alt="$t('香川県')"
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
+              $t('menu/非公式対策サイト')
             }}
           </div>
         </nuxt-link>
@@ -84,20 +84,6 @@
             </picture>
           </a>
         </div>
-        <small class="SideNavigation-Copyright">
-          {{ $t('このサイトの内容物は') }}
-          <a
-            :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
-            target="_blank"
-            rel="license"
-            class="SideNavigation-LicenseLink"
-          >
-            {{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}
-          </a>
-          {{ $t('の下に提供されています。') }}
-          <br />
-          2020 Tokyo Metropolitan Government
-        </small>
       </footer>
     </div>
   </div>
@@ -178,8 +164,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('香川県公式ホームページ'),
-          link: 'https://www.pref.kagawa.lg.jp/',
-          divider: true
+          link: 'https://www.pref.kagawa.lg.jp/'
         }
       ]
     }
@@ -302,6 +287,8 @@ export default Vue.extend({
 }
 
 .SideNavigation-HeaderLogo {
+  width: 111px;
+
   @include lessThan($tiny) {
     width: 100px;
   }

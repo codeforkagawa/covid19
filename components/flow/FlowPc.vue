@@ -105,13 +105,6 @@
         <flow-pc-hospitalized />
       </div>
     </div>
-    <p :class="$style.Note">
-      {{
-        $t(
-          '※保険適用となる検査は、当面の間、院内感染防止等の観点から、「帰国者・接触者外来」等の医療機関で実施'
-        )
-      }}
-    </p>
   </div>
 </template>
 

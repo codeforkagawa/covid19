@@ -2,7 +2,7 @@
   <div class="TextCard">
     <h3 v-if="title" class="TextCard-Heading">
       <div v-if="link">
-        <a :href="link" target="_blank" rel="noopener">
+        <a :href="link" target="_blank" rel="noopener noreferrer">
           {{ title }}
         </a>
         <v-icon
@@ -54,13 +54,16 @@ export default Vue.extend({
 <style lang="scss">
 .TextCard {
   @include card-container();
+
   padding: 20px;
   margin-bottom: 20px;
   &-Heading {
     @include card-h1();
+
     margin-bottom: 12px;
     a {
       @include card-h1();
+
       color: $link !important;
       text-decoration: none;
       &:hover {
