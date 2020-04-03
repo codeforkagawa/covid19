@@ -2,9 +2,9 @@
   <div v-if="isDevelopmentMode" class="DevelopmentModeMark">
     開発中（development mode）
     <a
-      href="https://covid19-kagawa.netlify.com/"
+      href="https://stopcovid19.metro.tokyo.lg.jp/"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       公開サイトへ
     </a>

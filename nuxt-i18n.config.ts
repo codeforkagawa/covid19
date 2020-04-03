@@ -17,7 +17,8 @@ export default {
       code: 'ja',
       name: '日本語',
       iso: 'ja-JP',
-      file: 'ja.json'
+      file: 'ja.json',
+      description: 'Japanese'
     },
     {
       code: 'en',
@@ -49,13 +50,15 @@ export default {
     //   code: 'pt-BR',
     //   name: 'Portuguese',
     //   iso: 'pt-BR',
-    //   file: 'pt_BR.json'
+    //   file: 'pt_BR.json',
+    //   description: 'Portuguese'
     // },
     {
       code: 'ja-basic',
       name: 'やさしい にほんご',
       iso: 'ja-JP',
-      file: 'ja-Hira.json'
+      file: 'ja-Hira.json',
+      description: 'Easy Japanese'
     }
   ]
 }

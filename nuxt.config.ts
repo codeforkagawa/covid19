@@ -1,5 +1,7 @@
 import { Configuration } from '@nuxt/types'
+import { Configuration as WebpackConfiguration } from 'webpack'
 import i18n from './nuxt-i18n.config'
+const webpack = require('webpack')
 const purgecss = require('@fullhuman/postcss-purgecss')
 const autoprefixer = require('autoprefixer')
 const environment = process.env.NODE_ENV || 'development'
@@ -81,8 +83,6 @@ const config: Configuration = {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     ['@nuxtjs/dotenv', { filename: `.env.${environment}` }],
@@ -91,11 +91,6 @@ const config: Configuration = {
     'nuxt-purgecss',
     ['vue-scrollto/nuxt', { duration: 1000, offset: -72 }]
   ],
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
-  axios: {},
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
@@ -110,6 +105,11 @@ const config: Configuration = {
     id: 'UA-162529035-1'
   },
   build: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        mapboxgl: 'mapbox-gl'
+      })
+    ],
     postcss: {
       plugins: [
         autoprefixer({ grid: 'autoplace' }),
@@ -126,8 +126,12 @@ const config: Configuration = {
         })
       ]
     },
+    extend(config: WebpackConfiguration, _) {
+      // default externals option is undefined
+      config.externals = [{ moment: 'moment' }]
+    }
     // https://ja.nuxtjs.org/api/configuration-build/#hardsource
-    hardSource: process.env.NODE_ENV === 'development'
+    // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
     name: '香川県 新型コロナウイルス感染症対策サイト(非公式)',
@@ -144,9 +148,11 @@ const config: Configuration = {
       const locales = ['ja', 'en', 'ja-basic']
       const pages = [
         '/cards/details-of-confirmed-cases',
+        '/cards/details-of-tested-cases',
         '/cards/number-of-confirmed-cases',
         '/cards/attributes-of-confirmed-cases',
         '/cards/number-of-tested',
+        '/cards/number-of-inspection-persons',
         '/cards/number-of-reports-to-covid19-telephone-advisory-center',
         '/cards/number-of-reports-to-covid19-consultation-desk',
         '/cards/predicted-number-of-toei-subway-passengers',

@@ -35,7 +35,7 @@
             <a
               href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <span>{{ $t('各保健所の電話番号は健康福祉部HPへ') }}</span>
               <v-icon size="18">
@@ -58,6 +58,26 @@
             「新型コロナウイルス感染症の疑い例」の場合は、休日・夜間も同じ番号で保健所夜間受付を経由して相談に応じます。
           </span>
         </div>
+        <div
+          :class="[
+            $style.AdvisoryTelephoneArea,
+            $style.AdvisoryBlockCentering,
+            'mt-1'
+          ]"
+        >
+          <a :class="$style.AdvisoryTelephone" href="tel:0353204592">
+            <img
+              :class="$style.AdvisoryTelephoneIcon"
+              src="/flow/phone-24px.svg"
+              aria-hidden="true"
+              :alt="$t('電話番号')"
+            />
+            03-5320-4592
+          </a>
+        </div>
+        <div v-if="!['ja', 'ja-basic'].includes($i18n.locale)" class="pt-8">
+          <span>{{ $t('ひまわり') }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -70,6 +90,7 @@
   justify-content: space-between;
   height: 100%;
   color: $gray-2;
+
   &Container {
     background-color: $gray-5;
     border-radius: 4px;
@@ -78,48 +99,61 @@
     margin-bottom: 10px;
     text-align: center;
   }
+
   &Contents {
     font-weight: bold;
+
     &:not(:first-child) {
       border-top: 0.5px solid $gray-4;
     }
+
     &Title {
       font-size: 26px;
       line-height: 28px;
     }
+
     &Title2 {
       font-size: 18px;
     }
+
     &SubTitle {
       font-size: 18px;
     }
+
     &ColsSentense {
       line-height: 18px;
     }
   }
+
   &BlockCentering {
     display: flex;
     justify-content: center;
   }
+
   &Link {
     line-height: 22px;
     text-align: left;
+
     a {
       color: rgba(0, 0, 0, 0.87);
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
   }
+
   &TelephoneArea {
     display: inline-flex;
   }
+
   &Telephone {
     display: flex;
     align-items: center;
     font-size: 27px;
     font-weight: bold;
+
     &:link,
     &:visited,
     &:hover,
@@ -127,7 +161,9 @@
     &:focus {
       color: inherit;
       text-decoration: none;
+      outline: 1px dotted $gray-3;
     }
+
     &Icon {
       display: inline-block;
       margin-right: 5px;
@@ -135,16 +171,19 @@
       height: 26px;
     }
   }
+
   &BoxContainer {
     border-radius: 4px;
     text-align: center;
     padding: 20px 10px;
     margin: 24px auto;
   }
+
   &WhiteBox {
     background-color: $white;
-    width: 160px;
+    max-width: 160px;
     padding: 10px;
+
     &Sentense {
       color: $green-1;
       font-size: 18px;

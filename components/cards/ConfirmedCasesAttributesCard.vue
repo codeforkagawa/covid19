@@ -7,9 +7,8 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
-      "
+      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
+      :source="$t('オープンデータを入手')"
     />
   </v-col>
 </template>
@@ -49,9 +48,12 @@ export default {
     for (const row of patientsTable.datasets) {
       row['居住地'] = this.$t(row['居住地'])
       row['性別'] = this.$t(row['性別'])
+      row['退院'] = this.$t(row['退院'])
 
       if (row['年代'] === '10歳未満') {
         row['年代'] = this.$t('10歳未満')
+      } else if (row['年代'] === '不明') {
+        row['年代'] = this.$t('不明')
       } else {
         const age = row['年代'].substring(0, 2)
         row['年代'] = this.$t('{age}代', { age })
