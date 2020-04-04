@@ -20,7 +20,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            {{ $t('各保健所の電話番号は福祉保健局HPへ') }}
+            {{ $t('各保健所の電話番号は健康福祉部HPへ') }}
             <v-icon size="16">
               mdi-open-in-new
             </v-icon>
@@ -34,7 +34,7 @@
               <span :class="[$style.fzMedium, $style.break, $style.mb10]">
                 {{ $t('平日（夜間）') }}
               </span>
-              {{ $t('午後5時から翌朝午前9時') }}
+              {{ $t('午後5時15分から翌朝午前8時30分') }}
             </li>
             <li>
               <span :class="$style.fzMedium">
@@ -44,20 +44,30 @@
           </ul>
         </dt>
         <dd>
-          <div :class="[$style.phone, $style.fzNumeric]">
-            <span :class="$style.icon">
-              <PhoneIcon alt="Phone" />
-            </span>
-            <a href="tel:0353204592">03-5320-4592</a>
-          </div>
-          <div
+          {{
+            $t(
+              '「新型コロナウイルス感染症の疑い例」の場合は、休日・夜間も同じ番号で保健所夜間受付を経由して相談に応じます。'
+            )
+          }}
+          <br /><br />
+          <a
+            href="https://www.fukushihoken.metro.kagawa.lg.jp/iryo/kansen/coronasodan.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ $t('各保健所の電話番号は健康福祉部HPへ') }}
+            <v-icon size="16">
+              mdi-open-in-new
+            </v-icon>
+          </a>
+          <!-- <div
             v-if="!['ja', 'ja-basic'].includes($i18n.locale)"
             :class="[$style.phone, $style.fzNumeric]"
           >
             <span :class="[$style.fzMedium, $style.break, $style.mb10]">
               {{ $t('ひまわり') }}
             </span>
-          </div>
+          </div> -->
         </dd>
       </div>
     </dl>
@@ -65,10 +75,8 @@
 </template>
 
 <script lang="ts">
-import PhoneIcon from '@/static/flow/responsive/phone.svg'
-
 export default {
-  components: { PhoneIcon }
+  components: {}
 }
 </script>
 
