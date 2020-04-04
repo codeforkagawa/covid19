@@ -79,7 +79,7 @@
         <!-- eslint-enable -->
       </span>
       <span :class="$style.break">
-        {{ $t('香川県健康安全研究センター等') }}
+        {{ $t('帰国者・接触者相談センター等') }}
       </span>
       <small :class="[$style.note, $style.fzSmall, $style.break]">
         {{
