@@ -34,7 +34,7 @@
                 {{ $t('※最新の情報はWebページをご覧ください') }}
               </p>
               <p class="PrintMeta-Link">
-                https://covid19-kagawa.netlify.com/
+                https://kagawa.stopcovid19.jp/
               </p>
             </v-card>
           </v-card>
@@ -82,7 +82,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://covid19-kagawa.netlify.com${this.$route.path}`
+          href: `https://kagawa.stopcovid19.jp${this.$route.path}`
         }
       ]
     }

@@ -15,8 +15,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate:
-      '%s | 香川県 新型コロナウイルス感染症非公式対策サイト(非公式)',
+    titleTemplate: '%s | 香川県 新型コロナウイルス感染症非公式対策サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -24,7 +23,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://covid19-kagawa.netlify.com'
+        content: 'https://kagawa.stopcovid19.jp'
       },
       {
         hid: 'twitter:card',
@@ -135,7 +134,7 @@ const config: Configuration = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '香川県 新型コロナウイルス感染症非公式対策サイト(非公式)',
+    name: '香川県 新型コロナウイルス感染症非公式対策サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
@@ -149,15 +148,11 @@ const config: Configuration = {
       const locales = ['ja', 'en', 'ja-basic']
       const pages = [
         '/cards/details-of-confirmed-cases',
-        '/cards/details-of-tested-cases',
         '/cards/number-of-confirmed-cases',
         '/cards/attributes-of-confirmed-cases',
         '/cards/number-of-tested',
-        '/cards/number-of-inspection-persons',
         '/cards/number-of-reports-to-covid19-telephone-advisory-center',
-        '/cards/number-of-reports-to-covid19-consultation-desk',
-        '/cards/predicted-number-of-toei-subway-passengers',
-        '/cards/agency'
+        '/cards/number-of-reports-to-covid19-consultation-desk'
       ]
 
       const routes: string[] = []
