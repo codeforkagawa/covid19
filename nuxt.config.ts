@@ -24,7 +24,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://covid19-kagawa.netlify.com'
+        content: 'https://kagawa.stopcovid19.jp'
       },
       {
         hid: 'twitter:card',
@@ -149,15 +149,11 @@ const config: Configuration = {
       const locales = ['ja', 'en', 'ja-basic']
       const pages = [
         '/cards/details-of-confirmed-cases',
-        '/cards/details-of-tested-cases',
         '/cards/number-of-confirmed-cases',
         '/cards/attributes-of-confirmed-cases',
         '/cards/number-of-tested',
-        '/cards/number-of-inspection-persons',
         '/cards/number-of-reports-to-covid19-telephone-advisory-center',
-        '/cards/number-of-reports-to-covid19-consultation-desk',
-        '/cards/predicted-number-of-toei-subway-passengers',
-        '/cards/agency'
+        '/cards/number-of-reports-to-covid19-consultation-desk'
       ]
 
       const routes: string[] = []

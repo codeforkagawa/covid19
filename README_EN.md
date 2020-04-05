@@ -1,17 +1,17 @@
 # Kagawa(Unofficial) COVID-19 Task Force website
 
-[![Kagawa COVID-19 Task Force website](https://user-images.githubusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://covid19-kagawa.netlify.com/)
+[![Kagawa COVID-19 Task Force website](https://user-imagesdocs/enusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://kagawa.stopcovid19.jp/)
 
 ### [日本語](./README.md) | [English](./README_EN.md)
 
 ## How to Contribute
 
 All contributions are welcome!
-Please check [How to contribute](./.github/CONTRIBUTING_EN.md) for details.
+Please check [How to contribute](./docs/en/CONTRIBUTING_EN.md) for details.
 
 ## Code of Conduct
 
-Please check [Code of conduct for developers](./.github/CODE_OF_CONDUCT_EN.md) for details.
+Please check [Code of conduct for developers](./docs/en/CODE_OF_CONDUCT_EN.md) for details.
 
 ## License
 This software is released under [the MIT License](./LICENSE.txt).
@@ -57,10 +57,10 @@ Please use the variable to detect which enviroinment is used at the runtime.
 ### Deployment to Staging & Production Environments
 
 When `master` branch is updated, the HTML files will be automatically built onto `production` branch,
-and then the production site (https://covid19-kagawa.netlify.com/) will be also updated.
+and then the production site (https://kagawa.stopcovid19.jp/) will be also updated.
 
 When `development` branch is updated, the HTML files will be automatically built onto `dev-pages` branch,
-and then the development site (https://dev-covid19-kagawa.netlify.com/) will be also updated.
+and then the development site (https://dev-kagawa.stopcovid19.jp/) will be also updated.
 
 ### Branch rules
 
@@ -73,5 +73,5 @@ Hotfix commit: hotfix/#{ISSUE_ID}-{branch_title_name}
 #### Basic branch
 | Purpose | Branch | Confirmation URL | Remarks |
 | ---- | -------- | ---- | ---- |
-| Development | development | http://covid19-kagawa-dev.netlify.com/ | base branch. Basically send a Pull Request here |
-| Production | master | https://covid19-kagawa.netlify.com/ | Pull Requests other than Administrators are prohibited |
+| Development | development | http://dev-covid19-kagawa.netlify.com/ | base branch. Basically send a Pull Request here |
+| Production | master | https://kagawa.stopcovid19.jp/ | Pull Requests other than Administrators are prohibited |
