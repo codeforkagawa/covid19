@@ -2,7 +2,7 @@
 
 Contributors, thank you for participating in this project!
 
-I'm Seki, the development manager. If you have any questions, feel free to ask me on Slack etc.
+If you have any questions, feel free to ask me on Slack etc.
 
 This page shows how you can contribute to the development of this site.
 
@@ -16,12 +16,11 @@ This page shows how you can contribute to the development of this site.
 * We appreciate if you give priority to the issues labelled [good first issue / help wanted / bug]
 
 ## How to participate in communications
-* If you do not have a "Code for Japan" Slack account, please register [here](https://cfjslackin.herokuapp.com/)
-* Join `#covid19` Channel
+* If you do not have a "Code for Kagawa" Slack account, please register [here](https://join.slack.com/t/stopcovid19kagawa/shared_invite/zt-d7n8dw03-dcXS~whdHp87LhRMcGO81A)
+* Join `#香川県版新型コロナウイルス対策サイト` Channel
 
 ## For participation
 * Please read [Principle / Code of Conduct](./CODE_OF_CONDUCT.md) before participating in development.
-* For communication, please also check Code for Japan's [Code of Conduct](https://github.com/codeforjapan/codeofconduct).
 * If you plan to work on an issue, please leave a comment behind to give a heads-up.
 * [good first issue label](https://github.com/codeforkagawa/covid19/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) is recommended for beginners.
 * If you can't make any progress for more than half a day, make sure that others can take over your work.
@@ -31,10 +30,7 @@ This page shows how you can contribute to the development of this site.
 * We also accept suggestions! Please feel free to create new issues.
 
 ## Development information
-* Development site https://covid19-kagawa-dev.netlify.com/
-* Staging site https://stg-covid19-tokyo.netlify.com/
-* Production site https://covid19-kagawa.netlify.com/
-* [Design](https://www.figma.com/file/V7vt80p2gauhdgTZeVNbgj/UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?node-id=121%3A156)
-* [Translation Spreadsheet](https://docs.google.com/spreadsheets/d/1avT6QGInyQseYjoc_TxL8RPZfutyvrv4BtJkXfk1Nko)
+* Development site https://dev-covid19-kagawa.netlify.com/
+* Production site https://kagawa.stopcovid19.jp/
 
 Updates to this document are also welcome!
