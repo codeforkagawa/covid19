@@ -15,8 +15,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate:
-      '%s | 香川県 新型コロナウイルス感染症非公式対策サイト(非公式)',
+    titleTemplate: '%s | 香川県 新型コロナウイルス感染症非公式対策サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -135,7 +134,7 @@ const config: Configuration = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '香川県 新型コロナウイルス感染症非公式対策サイト(非公式)',
+    name: '香川県 新型コロナウイルス感染症非公式対策サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
