@@ -1,14 +1,14 @@
 {
     "newsItems": [
         {
+            "date": "4\/06\/2020",
+            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir4\/dir4_1\/dir4_1_1\/wrj9du200406090405.shtml",
+            "text": "令和2年度 公立幼稚園、小・中学校及び県立学校の第1学期始業式・入学（園）式について"
+        },
+        {
             "date": "3\/30\/2020",
             "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wazlqj200330235511.shtml",
             "text": "新型コロナウイルスに関連した患者の発生について（2例目）"
-        },
-        {
-            "date": "3\/27\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/covid19_lineaccount.shtml",
-            "text": "新型コロナウイルスに関する情報提供や県民からの質問にチャットボットがお答えするLINEアカウントの開設について"
         }
     ]
 }
