@@ -34,6 +34,10 @@ const config: Configuration = {
         hid: 'note:card',
         property: 'note:card',
         content: 'summary_large_image'
+      },
+      {
+        name: 'google-site-verification',
+        content: 'lpU0AqW9j61GbEE4BiJaEh03opnAQxdT4UynCs3z2XI'
       }
     ],
     link: [
