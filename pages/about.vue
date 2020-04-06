@@ -11,42 +11,31 @@
       }}<br />
       {{
         $t(
-          '運営・開発は以下の学生エンジニアによってボランティアで行われています。'
+          '運営・開発は以下のエンジニアによってボランティアで行われています。'
         )
       }}<br />
       <br />
-      ・藤原出帆 (
-      <a href="//twitter.com/fujiwaraizuho" target="_blank">
-        {{ $t('@fujiwaraizuho') }}
+      <a
+        href="https://github.com/codeforkagawa/covid19/blob/development/CONTRIBUTORS.md"
+        target="_blank"
+      >
+        {{ $t('このサイトの運営に貢献していただいた人') }}
       </a>
-      )
-      <br />
-      ・ルサカ (
-      <a href="//twitter.com/Luscaca_" target="_blank">
-        {{ $t('@Luscaca_') }}
-      </a>
-      )
-      <br />
-      ・なんぞー (
-      <a href="//twitter.com/nandehu0323" target="_blank">
-        {{ $t('@nandehu0323') }}
-      </a>
-      )
       <br />
       <br />
-      複製・改変が許されたオープンソースライセンスで公開されている、
+      {{ $t('複製・改変が許されたオープンソースライセンスで公開されている、') }}
       <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
         {{ $t('東京都公式新型コロナウイルス公式対策サイト') }}
       </a>
-      の
+      {{ $t('の') }}
       <a href="//github.com/tokyo-metropolitan-gov/covid19" target="_blank">
         {{ $t('仕組み') }}
       </a>
-      と
+      {{ $t('と') }}
       <a href="//covid19-okayama.netlify.com/" target="_blank">
-        {{ $t('岡山県新型コロナウイルス感染症非公式対策サイト ') }}
+        {{ $t('岡山県新型コロナウイルス感染症非公式対策サイト') }}
       </a>
-      のソースコードを利用しています。
+      {{ $t('のソースコードを利用しています。') }}
       <br />
       <br />
       {{
