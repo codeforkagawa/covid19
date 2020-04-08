@@ -1,6 +1,6 @@
 # Kagawa(Unofficial) COVID-19 Task Force website
 
-[![Kagawa COVID-19 Task Force website](https://user-imagesdocs/enusercontent.com/19589940/76959982-f2868a80-695d-11ea-9d8e-28e9e9225d2c.png)](https://kagawa.stopcovid19.jp/)
+[![Kagawa COVID-19 Task Force website](https://kagawa.stopcovid19.jp/ogp.png)](https://kagawa.stopcovid19.jp/)
 
 ### [日本語](./README.md) | [English](./README_EN.md)
 
