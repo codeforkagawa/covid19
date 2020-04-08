@@ -14,6 +14,17 @@
         </div>
       </div>
       <ul :class="$style.group">
+        <li :class="[$style.box, $style.recovered]">
+          <div :class="$style.pillar">
+            <div :class="$style.content">
+              <span>{{ $t('調査中') }}</span>
+              <span>
+                <strong>{{ 調査中 }}</strong>
+                <span :class="$style.unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
         <li :class="[$style.box, $style.parent, $style.hospitalized]">
           <div :class="$style.pillar">
             <div :class="$style.content">
@@ -109,6 +120,10 @@ export default Vue.extend({
       required: true
     },
     退院: {
+      type: Number,
+      required: true
+    },
+    調査中: {
       type: Number,
       required: true
     }

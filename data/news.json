@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "4\/08\/2020",
+            "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006413.html",
+            "text": "県立学校13日から臨時休校へ"
+        },
+        {
+            "date": "4\/08\/2020",
+            "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006411.html",
+            "text": "新型コロナ県内３人目の感染確認"
+        },
+        {
             "date": "4\/07\/2020",
             "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/chijipage\/chijicomment\/wzynhe200407192736.shtml",
             "text": "香川県知事から県民の皆様へのメッセージ　～新型コロナウイルス感染症の緊急事態宣言発令を受けて～"
