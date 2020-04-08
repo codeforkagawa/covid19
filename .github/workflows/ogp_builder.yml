@@ -35,7 +35,7 @@ jobs:
       - name: Upload screenshot
         uses: actions/upload-artifact@v1
         with:
-          name: ogp
+          name: new_ogp
           path: ogp
   upload:
     needs: build
@@ -43,20 +43,20 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: ${{ steps.extract_branch.outputs.branch }}
+        ref: production
     - name: Download ogp images
       uses: actions/download-artifact@v1
       with:
-        name: ogp
+        name: new_ogp
     - name: Commit files
       run: |
-        cp -rp ogp static/
+        cp -rp new_ogp/* ogp/
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add static
-        git commit -m "Add changes"
+        git add ogp
+        git commit -m ":robot: Github Action: OGP"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ steps.extract_branch.outputs.branch }}
+        branch: production
