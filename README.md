@@ -1,6 +1,6 @@
 # 香川県 新型コロナウイルス感染症非公式対策サイト
 
-[![香川県 新型コロナウイルス感染症非公式対策サイト](https://kagawa.stopcovid19.jp/ogp.png)](https://kagawa.stopcovid19.jp/)
+[![香川県 新型コロナウイルス感染症非公式対策サイト](https://user-images.githubusercontent.com/19589940/78786277-7a066d00-79e3-11ea-8006-f264f8652685.png)](https://kagawa.stopcovid19.jp/)
 
 ### 日本語 | [English](./README_EN.md)
 
