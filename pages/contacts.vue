@@ -184,6 +184,19 @@
               >」のページをご覧ください。
             </td>
           </tr>
+          <tr>
+            <td class="content">
+              当サイトに関すること
+            </td>
+            <td class="bureau">
+              Code for Kagawa
+            </td>
+            <td class="tel">
+              <a href="mailto:codeforkagawa@gmail.com"
+                >codeforkagawa@gmail.com</a
+              >
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
