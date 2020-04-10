@@ -1,5 +1,10 @@
 {
     "newsItems": [
+      {
+          "date": "4\/10\/2020",
+          "url": "https:\/\/www.sanyonews.jp\/article\/1002722\/",
+          "text": "新型コロナ県内４人目の感染確認"
+      },
         {
             "date": "4\/08\/2020",
             "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006413.html",
@@ -14,11 +19,6 @@
             "date": "4\/07\/2020",
             "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/chijipage\/chijicomment\/wzynhe200407192736.shtml",
             "text": "香川県知事から県民の皆様へのメッセージ　～新型コロナウイルス感染症の緊急事態宣言発令を受けて～"
-        },
-        {
-            "date": "4\/06\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir4\/dir4_1\/dir4_1_1\/wrj9du200406090405.shtml",
-            "text": "令和2年度 公立幼稚園、小・中学校及び県立学校の第1学期始業式・入学（園）式について"
         }
     ]
 }
