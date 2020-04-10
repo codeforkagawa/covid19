@@ -236,6 +236,18 @@
         </i18n>
       </p>
     </StaticCard>
+    <StaticCard>
+      <h3>{{ $t('お問い合わせ先') }}</h3>
+      <p>
+        <a
+          href="mailto:codeforkagawa@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          codeforkagawa@gmail.com
+        </a>
+      </p>
+    </StaticCard>
   </div>
 </template>
 
