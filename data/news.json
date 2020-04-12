@@ -1,10 +1,15 @@
 {
     "newsItems": [
-      {
-          "date": "4\/10\/2020",
-          "url": "https:\/\/www.sanyonews.jp\/article\/1002722\/",
-          "text": "新型コロナ県内４人目の感染確認"
-      },
+        {
+            "date": "4\/12\/2020",
+            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/w7armt200412174353.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生について（5・6例目）"
+        },
+        {
+            "date": "4\/10\/2020",
+            "url": "https:\/\/www.sanyonews.jp\/article\/1002722\/",
+            "text": "新型コロナウイルスに関連した患者の発生について（4例目）"
+        },
         {
             "date": "4\/08\/2020",
             "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006413.html",
@@ -13,12 +18,7 @@
         {
             "date": "4\/08\/2020",
             "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006411.html",
-            "text": "新型コロナ県内３人目の感染確認"
-        },
-        {
-            "date": "4\/07\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/chijipage\/chijicomment\/wzynhe200407192736.shtml",
-            "text": "香川県知事から県民の皆様へのメッセージ　～新型コロナウイルス感染症の緊急事態宣言発令を受けて～"
+            "text": "新型コロナウイルスに関連した患者の発生について（3例目）"
         }
     ]
 }
