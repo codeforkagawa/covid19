@@ -5,7 +5,7 @@
       :title-id="'number-of-tested'"
       :chart-id="'time-stacked-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
-      :date="Data.inspections_summary.date"
+      :date="inspectionsSummary.date"
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import inspectionsSummary from '@/data/inspections_summary.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 
 export default {
@@ -29,13 +29,13 @@ export default {
   },
   data() {
     // 検査実施日別状況
-    const inspectionsGraph = [Data.inspections_summary.data['県内']]
+    const inspectionsGraph = [inspectionsSummary.data['県内']]
     const inspectionsItems = [this.$t('県内発生（※1）')]
-    const inspectionsLabels = Data.inspections_summary.labels
+    const inspectionsLabels = inspectionsSummary.labels
     const inspectionsDataLabels = [this.$t('県内')]
 
     const data = {
-      Data,
+      inspectionsSummary,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
