@@ -5,7 +5,7 @@
       :title-id="'number-of-reports-to-covid19-consultation-desk'"
       :chart-id="'time-bar-chart-querents'"
       :chart-data="querentsGraph"
-      :date="Data.querents.date"
+      :date="querents.date"
       :unit="$t('件.reports')"
       :url="
         'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import querents from '@/data/querents.json'
 import formatGraph from '@/utils/formatGraph'
 import TimeBarChart from '@/components/TimeBarChart.vue'
 
@@ -26,10 +26,10 @@ export default {
   },
   data() {
     // 帰国者・接触者 電話相談センター 相談件数
-    const querentsGraph = formatGraph(Data.querents.data)
+    const querentsGraph = formatGraph(querents.data)
 
     const data = {
-      Data,
+      querents,
       querentsGraph
     }
     return data
