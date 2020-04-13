@@ -6,7 +6,7 @@
       </page-header>
       <div class="UpdatedAt">
         <span>{{ $t('最終更新') }} </span>
-        <time :datetime="updatedAt">{{ Data.lastUpdate }}</time>
+        <time :datetime="updatedAt">{{ lastUpdate }}</time>
       </div>
       <div
         v-show="!['ja', 'ja-basic'].includes($i18n.locale)"
@@ -40,7 +40,12 @@ import { MetaInfo } from 'vue-meta'
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import StaticInfo from '@/components/StaticInfo.vue'
-import Data from '@/data/data.json'
+import contacts from '@/data/contacts.json'
+import inspectionsSummary from '@/data/inspections_summary.json'
+import mainSummary from '@/data/main_summary.json'
+import patientsSummary from '@/data/patients_summary.json'
+import patients from '@/data/patients.json'
+import querents from '@/data/querents.json'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -48,7 +53,7 @@ import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttri
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
+import { getLatestUpdateAt } from '@/utils/formatDate'
 
 export default Vue.extend({
   components: {
@@ -64,18 +69,25 @@ export default Vue.extend({
   },
   data() {
     const data = {
-      Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: this.$t('県内の最新感染動向')
       },
-      newsItems: News.newsItems
+      newsItems: News.newsItems,
+      lastUpdate: getLatestUpdateAt([
+        contacts,
+        inspectionsSummary,
+        mainSummary,
+        patientsSummary,
+        patients,
+        querents
+      ])
     }
     return data
   },
   computed: {
     updatedAt() {
-      return convertDatetimeToISO8601Format(this.$data.Data.lastUpdate)
+      return this.$data.lastUpdate
     }
   },
   head(): MetaInfo {

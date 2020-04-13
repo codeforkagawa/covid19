@@ -5,7 +5,7 @@
       :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
       :chart-id="'time-bar-chart-contacts'"
       :chart-data="contactsGraph"
-      :date="Data.contacts.date"
+      :date="contacts.date"
       :unit="$t('件.reports')"
       :url="
         'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import contacts from '@/data/contacts.json'
 import formatGraph from '@/utils/formatGraph'
 import TimeBarChart from '@/components/TimeBarChart.vue'
 
@@ -26,10 +26,10 @@ export default {
   },
   data() {
     // 相談件数
-    const contactsGraph = formatGraph(Data.contacts.data)
+    const contactsGraph = formatGraph(contacts.data)
 
     const data = {
-      Data,
+      contacts,
       contactsGraph
     }
     return data
