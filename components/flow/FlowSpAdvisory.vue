@@ -15,16 +15,12 @@
           {{ $t('平日（日中）') }}
         </dt>
         <dd :class="$style.link">
-          <a
-            href="https://kagawa.stopcovid19.jp/public-health-center"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {{ $t('各保健所の電話番号') }}
-            <v-icon size="16">
+          <nuxt-link :to="localePath('/public-health-center')">
+            <span>{{ $t('各保健所の電話番号') }}</span>
+            <v-icon size="18">
               mdi-open-in-new
             </v-icon>
-          </a>
+          </nuxt-link>
         </dd>
       </div>
       <div>
@@ -50,16 +46,12 @@
             )
           }}
           <br /><br />
-          <a
-            href="https://kagawa.stopcovid19.jp/public-health-center"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {{ $t('各保健所の電話番号') }}
-            <v-icon size="16">
+          <nuxt-link :to="localePath('/public-health-center')">
+            <span>{{ $t('各保健所の電話番号') }}</span>
+            <v-icon size="18">
               mdi-open-in-new
             </v-icon>
-          </a>
+          </nuxt-link>
           <!-- <div
             v-if="!['ja', 'ja-basic'].includes($i18n.locale)"
             :class="[$style.phone, $style.fzNumeric]"
