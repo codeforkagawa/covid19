@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "4\/13\/2020",
+            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wkh8a9200414084310.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生について（9-16例目）"
+        },
+        {
             "date": "4\/12\/2020",
             "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wck69c200413002552.shtml",
             "text": "新型コロナウイルスに関連した患者の発生について（7・8例目）"
@@ -14,11 +19,6 @@
             "date": "4\/10\/2020",
             "url": "https:\/\/www.sanyonews.jp\/article\/1002722\/",
             "text": "新型コロナウイルスに関連した患者の発生について（4例目）"
-        },
-        {
-            "date": "4\/08\/2020",
-            "url": "https:\/\/www3.nhk.or.jp\/lnews\/takamatsu\/20200408\/8030006413.html",
-            "text": "県立学校13日から臨時休校へ"
         }
     ]
 }
