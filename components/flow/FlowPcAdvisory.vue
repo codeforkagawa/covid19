@@ -33,11 +33,11 @@
             ]"
           >
             <a
-              href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
+              href="http://kagawa.stopcovid19.jp/public-health-center"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>{{ $t('各保健所の電話番号は健康福祉部HPへ') }}</span>
+              <span>{{ $t('各保健所の電話番号') }}</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
@@ -66,11 +66,11 @@
           :class="[$style.AdvisoryLink, $style.AdvisoryBlockCentering, 'mt-4']"
         >
           <a
-            href="https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#hoken_list"
+            href="http://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span>{{ $t('各保健所の電話番号は健康福祉部HPへ') }}</span>
+            <span>{{ $t('各保健所の電話番号') }}</span>
             <v-icon size="18">
               mdi-open-in-new
             </v-icon>
