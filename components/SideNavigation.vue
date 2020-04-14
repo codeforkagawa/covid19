@@ -170,6 +170,10 @@ export default Vue.extend({
           link: this.localePath('/about')
         },
         {
+          title: this.$t('保健所一覧'),
+          link: this.localePath('/public-health-center')
+        },
+        {
           title: this.$t('お問い合わせ先一覧'),
           link: this.localePath('/contacts')
         },
