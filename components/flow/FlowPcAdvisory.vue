@@ -32,16 +32,12 @@
               'mt-4'
             ]"
           >
-            <a
-              href="https://kagawa.stopcovid19.jp/public-health-center"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <nuxt-link :to="localePath('/public-health-center')">
               <span>{{ $t('各保健所の電話番号') }}</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -65,20 +61,16 @@
         <div
           :class="[$style.AdvisoryLink, $style.AdvisoryBlockCentering, 'mt-4']"
         >
-          <a
-            href="https://kagawa.stopcovid19.jp/public-health-center"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <nuxt-link :to="localePath('/public-health-center')">
             <span>{{ $t('各保健所の電話番号') }}</span>
             <v-icon size="18">
               mdi-open-in-new
             </v-icon>
-          </a>
+          </nuxt-link>
         </div>
-        <div v-if="!['ja', 'ja-basic'].includes($i18n.locale)" class="pt-8">
+        <!-- <div v-if="!['ja', 'ja-basic'].includes($i18n.locale)" class="pt-8">
           <span>{{ $t('ひまわり') }}</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
