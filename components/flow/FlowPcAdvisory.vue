@@ -33,7 +33,7 @@
             ]"
           >
             <a
-              href="http://kagawa.stopcovid19.jp/public-health-center"
+              href="https://kagawa.stopcovid19.jp/public-health-center"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@
           :class="[$style.AdvisoryLink, $style.AdvisoryBlockCentering, 'mt-4']"
         >
           <a
-            href="http://kagawa.stopcovid19.jp/public-health-center"
+            href="https://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >

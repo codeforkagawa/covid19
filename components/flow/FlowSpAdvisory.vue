@@ -16,7 +16,7 @@
         </dt>
         <dd :class="$style.link">
           <a
-            href="http://kagawa.stopcovid19.jp/public-health-center"
+            href="https://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@
           }}
           <br /><br />
           <a
-            href="http://kagawa.stopcovid19.jp/public-health-center"
+            href="https://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >
