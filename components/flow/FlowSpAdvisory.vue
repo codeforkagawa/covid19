@@ -16,11 +16,11 @@
         </dt>
         <dd :class="$style.link">
           <a
-            href="https://www.fukushihoken.metro.kagawa.lg.jp/iryo/kansen/coronasodan.html"
+            href="http://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {{ $t('各保健所の電話番号は健康福祉部HPへ') }}
+            {{ $t('各保健所の電話番号') }}
             <v-icon size="16">
               mdi-open-in-new
             </v-icon>
@@ -51,11 +51,11 @@
           }}
           <br /><br />
           <a
-            href="https://www.fukushihoken.metro.kagawa.lg.jp/iryo/kansen/coronasodan.html"
+            href="http://kagawa.stopcovid19.jp/public-health-center"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {{ $t('各保健所の電話番号は健康福祉部HPへ') }}
+            {{ $t('各保健所の電話番号') }}
             <v-icon size="16">
               mdi-open-in-new
             </v-icon>

@@ -204,7 +204,7 @@
   "帰国者・接触者 電話相談センター": "Telephone consultation center for returnees and those in close contact with them",
   "24時間対応": "Open all day",
   "平日（日中）": "Weekdays (daytime)",
-  "各保健所の電話番号は健康福祉部HPへ": "Find the phone number of your public health center on the Bureau of Social Welfare and Public Health website",
+  "各保健所の電話番号": "Find the phone number of your public health center on the Bureau of Social Welfare and Public Health website",
   "平日（夜間）": "Weekdays (night)",
   "午後5時から翌朝午前9時": "5:00 pm - 9:00 am ",
   "午前8時30分から午後5時15分": "8:30 am - 5:15 pm ",
@@ -355,7 +355,8 @@
   "FAX（土日祝除く）" : "FAX (exclude weekends and holidays)",
   "開設時間":"Opening hours",
   "「新型コロナウイルス感染症の疑い例」の場合は、休日・夜間も同じ番号で保健所夜間受付を経由して相談に応じます。":"In case of a suspected case of a new type of coronavirus infection, the same number will be used for consultations on holidays and evenings via the nighttime reception desk at the public health center.",
-  "各保健所の電話番号は健康福祉部HPへ":"For the telephone numbers of each health center, go to the Health and Welfare Department website.",
+  "各保健所の電話番号":"For the telephone numbers of each health center, go to the Health and Welfare Department website.",
   "厚生労働省の新型コロナ相談窓口":"The Ministry of Health, Labour and Welfare's new corona consultation service",
-  "帰国者・接触者相談センター等":"Consultation Center for Returnees and Close contact Persons, etc"
+  "帰国者・接触者相談センター等":"Consultation Center for Returnees and Close contact Persons, etc",
+  "県内の保健所一覧": "List of public health centers in Kagawa"
 }
