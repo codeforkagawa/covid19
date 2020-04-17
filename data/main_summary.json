@@ -1,7 +1,7 @@
 {
     "date": "2020\/04\/17 20:00",
-    "attr": "検査実施人数",
-    "value": 833,
+    "attr": "検査実施件数",
+    "value": 967,
     "children": [
         {
             "attr": "陽性患者数",
@@ -9,17 +9,7 @@
             "children": [
                 {
                     "attr": "入院中",
-                    "value": 6,
-                    "children": [
-                        {
-                            "attr": "軽症・中等症",
-                            "value": "-"
-                        },
-                        {
-                            "attr": "重症",
-                            "value": "-"
-                        }
-                    ]
+                    "value": 6
                 },
                 {
                     "attr": "退院",
