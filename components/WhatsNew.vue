@@ -11,7 +11,7 @@
         <v-icon size="20" class="WhatsNew-link-to-emergency-page-icon">
           mdi-bullhorn
         </v-icon>
-        <external-link url="https://youtu.be/eUmRvmuYpwk">
+        <external-link url="https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml">
           {{ $t('香川県緊急事態宣言について') }}
         </external-link>
       </span>
