@@ -1,0 +1,60 @@
+name: data deploy
+
+on:
+  push:
+    branches:
+      - deploy/resources
+
+jobs:
+  pr-development:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: resources
+      - uses: actions/checkout@v2
+        with:
+          ref: development
+          path: development
+      - run: |
+          cp -rf resources/data/* development/data/
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: development
+          commit-message: BOT; UPDATE DATA
+          title: BOT; UPDATE DATA to development
+          base: development
+          branch: data-bot/development
+          labels: auto_merge
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ env.PULL_REQUEST_NUMBER }}"
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pr_number }}"
+  pr-master:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: resources
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+      - run: |
+          cp -rf resources/data/* master/data/
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: master
+          commit-message: BOT; UPDATE DATA
+          title: BOT; UPDATE DATA to master
+          base: master
+          branch: data-bot/master
+          labels: auto_merge
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ env.PULL_REQUEST_NUMBER }}"
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pr_number }}"
