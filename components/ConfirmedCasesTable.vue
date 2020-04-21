@@ -9,7 +9,7 @@
           </span>
           <span>
             <strong>{{ 検査実施件数 }}</strong>
-            <span :class="$style.unit">{{ $t('人') }}</span>
+            <span :class="$style.unit">{{ $t('件.tested') }}</span>
           </span>
         </div>
       </div>
