@@ -1,24 +1,24 @@
 {
     "newsItems": [
         {
-            "date": "4\/20\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir4\/dir4_1\/dir4_1_1\/wtfdr0200420093550.shtml",
-            "text": "県立学校の臨時休業の延長について"
+            "date": "04/21/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
         },
         {
-            "date": "4\/14\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wupnqp200414195032.shtml",
+            "date": "04/21/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_8/dir6_8_1/w7yuax200421153801.shtml",
+            "text": "コロナウイルス感染拡大「香川県緊急事態」宣言等に関する経済団体等への要請について（二次要請）"
+        },
+        {
+            "date": "04/21/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w4ug21200315195814.shtml",
+            "text": "事業者の皆さまへ　－新型コロナウイルス感染症（COVID－19）に関する情報"
+        },
+        {
+            "date": "04/21/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
             "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
-        },
-        {
-            "date": "4\/13\/2020",
-            "url": "http:\/\/www.city.takamatsu.kagawa.jp\/kurashi\/kenkou\/kansensho\/case15-17.html",
-            "text": "新型コロナウイルスに関連した患者の発生について（17〜19例目）(高松市内では15〜17例目)"
-        },
-        {
-            "date": "4\/13\/2020",
-            "url": "https:\/\/www.pref.kagawa.lg.jp\/content\/dir1\/dir1_6\/dir1_6_1\/wkh8a9200414084310.shtml",
-            "text": "新型コロナウイルスに関連した患者の発生について（9〜16例目）"
         }
     ]
 }
