@@ -2,23 +2,23 @@
     "newsItems": [
         {
             "date": "04/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wxiolj200422224903.shtml",
+            "text": "本日（4月22日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "04/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wozkfi200422220811.shtml",
+            "text": "新型コロナウイルス感染症に関連した患者（20例目）に関する情報について"
+        },
+        {
+            "date": "04/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/w5o53z200422221955.shtml",
+            "text": "新型コロナウイルス感染拡大防止のための香川県における緊急事態措置等"
+        },
+        {
+            "date": "04/22/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
-        },
-        {
-            "date": "04/22/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wr30nn200421084116.shtml",
-            "text": "県管理ダム周辺の公園におけるキャンプの利用休止について"
-        },
-        {
-            "date": "04/22/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
-            "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
-        },
-        {
-            "date": "04/22/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
-            "text": "イベントの中止などに関する情報"
         }
     ]
 }
