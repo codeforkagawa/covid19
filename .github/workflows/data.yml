@@ -28,7 +28,6 @@ jobs:
           base: development
           branch: data-bot/development
           labels: auto_merge
-          team-reviewers: codeforkagawa/editor
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ env.PULL_REQUEST_NUMBER }}"
@@ -55,7 +54,6 @@ jobs:
           base: master
           branch: data-bot/master
           labels: auto_merge
-          team-reviewers: codeforkagawa/editor
       - name: Check outputs
         run: |
           echo "Pull Request Number - ${{ env.PULL_REQUEST_NUMBER }}"
