@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "04/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wr30nn200421084116.shtml",
+            "text": "県管理ダム周辺の公園におけるキャンプの利用休止について"
+        },
+        {
+            "date": "04/22/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
             "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
         },
@@ -12,8 +17,8 @@
         },
         {
             "date": "04/22/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_1/dir6_1_6/wob9zn200422085633.shtml",
-            "text": "県立高等技術学校 臨時休校延長のお知らせ"
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
         }
     ]
 }
