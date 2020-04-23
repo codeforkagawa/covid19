@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "04/23/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_5/weftmj200423145413.shtml",
+            "text": "県立図書館・文書館の臨時休館について"
+        },
+        {
+            "date": "04/23/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_5/wldqlt200423151724.shtml",
+            "text": "屋島少年自然の家等の臨時休館等について"
+        },
+        {
+            "date": "04/23/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
@@ -9,16 +19,6 @@
             "date": "04/23/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wo9dmo200423112027.shtml",
             "text": "県有施設の臨時休館について"
-        },
-        {
-            "date": "04/23/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_5/dir4_5_1/waa900200422104846.shtml",
-            "text": "新型コロナウイルス感染症の影響に伴う香川県大学生等奨学金の返還猶予のご案内"
-        },
-        {
-            "date": "04/23/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_2/dir5_2_2/ws2p4f200422173107.shtml",
-            "text": "高松空港県営駐車場の一時営業休止について"
         }
     ]
 }
