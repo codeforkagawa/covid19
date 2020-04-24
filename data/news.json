@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "04/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_6/w5hmps200327094826.shtml",
+            "text": "金融支援 －中小企業者などへの融資（新型コロナウイルス感染症関係）"
+        },
+        {
+            "date": "04/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wx4rea200424171540.shtml",
             "text": "香川県新型コロナウイルス対策本部会議（第12回）の開催について"
         },
@@ -14,11 +19,6 @@
             "date": "04/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_6/woki30200424151020.shtml",
             "text": "新型コロナウイルス感染症に係る県制度融資の対象者の要件緩和について"
-        },
-        {
-            "date": "04/24/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_8/dir6_8_1/wbq129200424131536.shtml",
-            "text": "香川県行政書士会が新型コロナウイルス感染症対応のための無料の電話相談窓口を設置します"
         }
     ]
 }
