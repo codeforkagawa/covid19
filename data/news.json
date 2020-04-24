@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "04/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_10/dir7_10_7/w59p10200424114748.shtml",
+            "text": "新型コロナウイルス感染症の影響による使用料等の納入期限の延長の取扱いについて"
+        },
+        {
+            "date": "04/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
