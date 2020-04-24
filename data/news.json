@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "04/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wx4rea200424171540.shtml",
+            "text": "香川県新型コロナウイルス対策本部会議（第12回）の開催について"
+        },
+        {
+            "date": "04/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir8/dir8_7/dir8_7_4/wo0l5u200424154925.shtml",
             "text": "新型コロナウイルス感染症発生に伴う在宅高齢者向けリーフレット・ポスターの印刷業務について（契約締結前情報）"
         },
@@ -14,11 +19,6 @@
             "date": "04/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_8/dir6_8_1/wbq129200424131536.shtml",
             "text": "香川県行政書士会が新型コロナウイルス感染症対応のための無料の電話相談窓口を設置します"
-        },
-        {
-            "date": "04/24/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_10/dir7_10_7/w59p10200424114748.shtml",
-            "text": "新型コロナウイルス感染症の影響による使用料等の納入期限の延長の取扱いについて"
         }
     ]
 }
