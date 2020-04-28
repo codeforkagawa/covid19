@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "04/28/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_6/wc1f9g200428085751.shtml",
+            "text": "新型コロナウイルス感染症に係る中小企業への金融支援に関する意見交換会の開催について"
+        },
+        {
+            "date": "04/28/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseitv/wvd9gi200427131752.shtml",
             "text": "岡山・香川 新型コロナウイルスから命と暮らしを守ろう"
         },
