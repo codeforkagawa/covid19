@@ -1,0 +1,20 @@
+{
+  "step": 1,
+  "info": {
+    "date": "2020/04/16",
+    "residence": "高松市",
+    "age": "2歳",
+    "gender": "女性"
+  },
+  "symptoms": [
+    {
+      "date": "2020/04/16",
+      "description": "調査中"
+    }
+  ],
+  "actionHistories": [
+    {
+      "description": "調査中"
+    }
+  ]
+}

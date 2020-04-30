@@ -9,6 +9,7 @@
   ],
   "rules": {
     "vue/max-attributes-per-line": "off",
+    "import/no-mutable-exports": "off",
     "vue/html-self-closing": ["error", {
       "html": {
         "void": "always"
