@@ -13,6 +13,7 @@
       :source="$t('オープンデータを入手')"
       :custom-sort="customSort"
     />
+    <confirmed-cases-attribute-detail />
   </v-col>
 </template>
 
@@ -22,9 +23,11 @@ import patientsSummary from '@/data/patients_summary.json'
 import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatTable'
 import DataTable from '@/components/DataTable.vue'
+import ConfirmedCasesAttributeDetail from '@/components/ConfirmedCasesAttributeDetail.vue'
 export default {
   components: {
-    DataTable
+    DataTable,
+    ConfirmedCasesAttributeDetail
   },
   data() {
     // 感染者数グラフ
@@ -60,7 +63,8 @@ export default {
     const data = {
       patients,
       patientsTable,
-      sumInfoOfPatients
+      sumInfoOfPatients,
+      dialog: false
     }
     return data
   },

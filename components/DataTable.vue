@@ -14,7 +14,13 @@
       :mobile-breakpoint="0"
       :custom-sort="customSort"
       class="cardTable"
-    />
+    >
+      <template v-slot:item.="{ item }">
+        <div class="detailLink" @click="open(item.idx)">
+          詳細を見る
+        </div>
+      </template>
+    </v-data-table>
     <div class="note">
       {{ $t('※退院には、死亡退院を含む') }}
     </div>
@@ -86,6 +92,13 @@
   font-size: 12px;
   color: $gray-3;
 }
+
+.detailLink {
+  width: 60px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
 </style>
 
 <script lang="ts">
@@ -93,6 +106,7 @@ import Vue from 'vue'
 import DataView from '@/components/DataView.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
 import OpenDataLink from '@/components/OpenDataLink.vue'
+import { detailStore } from '@/store'
 
 export default Vue.extend({
   components: { DataView, DataViewBasicInfoPanel, OpenDataLink },
@@ -150,6 +164,12 @@ export default Vue.extend({
     tables.forEach((table: HTMLElement) => {
       table.setAttribute('tabindex', '0')
     })
+  },
+  methods: {
+    open(idx: number) {
+      detailStore.setDetailID(idx)
+      detailStore.setIsShow(true)
+    }
   }
 })
 </script>

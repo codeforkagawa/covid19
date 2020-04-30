@@ -1,0 +1,36 @@
+{
+  "step": 2,
+  "info": {
+    "date": "2020/04/12",
+    "residence": "高松市",
+    "age": "40代",
+    "gender": "女性"
+  },
+  "symptoms": [
+    {
+      "date": "2020/04/13",
+      "description": "感染症指定医療機関に入院予定"
+    },
+    {
+      "date": "2020/04/10~",
+      "description": "味覚障害、嗅覚障害、全身倦怠感"
+    }
+  ],
+  "actionHistories": [
+    {
+      "title": "2020/04/12",
+      "description": "仕事休み"
+    },
+    {
+      "title": "2020/04/11",
+      "description": "仕事"
+    },
+    {
+      "title": "2020/04/10",
+      "description": "仕事"
+    },
+    {
+      "description": "発症前14日以内に海外渡航歴、県外滞在歴なし。4月6日から4月9日まで保育所で仕事。"
+    }
+  ]
+}
