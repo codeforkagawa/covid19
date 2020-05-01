@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/01/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
+            "date": "05/01/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_3/dir5_3_6/wt2e17200430083914.shtml",
             "text": "「香川・愛媛せとうち旬彩館」臨時休館の期間を延長します"
         },
@@ -14,11 +19,6 @@
             "date": "05/01/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
-        },
-        {
-            "date": "05/01/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/wjd62u200501151425.shtml",
-            "text": "新型コロナウイルス感染症に関して特別支援体制で、中小事業者等を強力に支援します。"
         }
     ]
 }
