@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/01/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_1/wqsq72200501190519.shtml",
+            "text": "県立学校の臨時休業期間の延長の検討状況について"
+        },
+        {
+            "date": "05/01/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/wjd62u200501151425.shtml",
             "text": "新型コロナウイルス感染症に関して特別支援体制で、中小事業者等を強力に支援します"
         },
@@ -14,11 +19,6 @@
             "date": "05/01/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_3/dir5_3_6/wt2e17200430083914.shtml",
             "text": "「香川・愛媛せとうち旬彩館」臨時休館の期間を延長します"
-        },
-        {
-            "date": "05/01/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_1/dir1_1_7/wwixmj200501160757.shtml",
-            "text": "かがわ縁結び支援センター（EN－MUSUかがわ）主催のイベントの中止について"
         }
     ]
 }
