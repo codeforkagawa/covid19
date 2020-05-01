@@ -108,6 +108,12 @@ import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
 import OpenDataLink from '@/components/OpenDataLink.vue'
 import { detailStore } from '@/store'
 
+declare module 'vue/types/vue' {
+  interface Vue {
+    $ga: any
+  }
+}
+
 export default Vue.extend({
   components: { DataView, DataViewBasicInfoPanel, OpenDataLink },
   props: {
@@ -169,6 +175,11 @@ export default Vue.extend({
     open(idx: number) {
       detailStore.setDetailID(idx)
       detailStore.setIsShow(true)
+      this.$ga.event({
+        eventCategory: 'AttributeDetail',
+        eventAction: 'show',
+        eventLabel: `${idx + 1}例目`
+      })
     }
   }
 })
