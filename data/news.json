@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "05/03/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
             "date": "05/02/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w68zfk200502212611.shtml",
             "text": "新型コロナウイルス感染症に関連した患者（6例目・9例目）に関する情報について"
@@ -14,11 +19,6 @@
             "date": "05/02/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
             "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
-        },
-        {
-            "date": "05/01/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/wpf6fi200501211619.shtml",
-            "text": "県内市町の支援事業 －事業者向け（新型コロナウイルス感染症関係）"
         }
     ]
 }
