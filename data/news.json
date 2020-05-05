@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/05/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3k150200315183532.shtml",
+            "text": "これまでの主な経過　－新型コロナウイルス感染症に対する主な対応状況"
+        },
+        {
+            "date": "05/05/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w5bekc200505191740.shtml",
             "text": "新型コロナウイルス感染収束に向けた香川県における緊急事態措置等について"
         },
@@ -14,11 +19,6 @@
             "date": "05/05/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_1/w13evb200505142713.shtml",
             "text": "新型コロナウイルス感染症対策としての県立学校等の臨時休業期間の延長について"
-        },
-        {
-            "date": "05/05/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_3/dir4_3_10/wc4mz4200505151243.shtml",
-            "text": "県有施設の利用休止について"
         }
     ]
 }
