@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/05/2020",
+            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
+            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
+        },
+        {
+            "date": "05/05/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_1/w13evb200505142713.shtml",
             "text": "新型コロナウイルス感染症対策としての県立学校等の臨時休業期間の延長について"
         },
@@ -14,11 +19,6 @@
             "date": "05/05/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_5/dir4_5_1/wliiys200505164220.shtml",
             "text": "臨時休校期間の延長について"
-        },
-        {
-            "date": "05/05/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_3/dir6_3_6/wgor43200505161816.shtml",
-            "text": "県立農業大学校の休校期間の延長について"
         }
     ]
 }
