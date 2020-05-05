@@ -2,23 +2,23 @@
     "newsItems": [
         {
             "date": "05/04/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wjyknk200504233949.shtml",
-            "text": "本日（5月4日）の新型コロナウイルス感染症PCR検査の終了について"
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w1ha5k200504205752.shtml",
+            "text": "新型コロナウイルス感染症に関連した患者（26例目）に関する情報について"
         },
         {
             "date": "05/04/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w1ha5k200504205752.shtml",
-            "text": "新型コロナウイルス感染症に関連した患者（26例目）に関する情報について"
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wzskro200505091927.shtml",
+            "text": "香川県新型コロナウイルス対策本部会議（第13回）の開催について"
+        },
+        {
+            "date": "05/04/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wjyknk200504233949.shtml",
+            "text": "本日（5月4日）の新型コロナウイルス感染症PCR検査の終了について"
         },
         {
             "date": "05/03/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wcigqj200503191550.shtml",
             "text": "本日（5月3日）の新型コロナウイルス感染症PCR検査の終了について"
-        },
-        {
-            "date": "05/03/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
-            "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
         }
     ]
 }
