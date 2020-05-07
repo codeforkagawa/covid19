@@ -2,23 +2,23 @@
     "newsItems": [
         {
             "date": "05/07/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wa2y0y200420093126.shtml",
-            "text": "内場池のゲート等の鍵の貸出休止解除について"
-        },
-        {
-            "date": "05/07/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wr30nn200421084116.shtml",
-            "text": "県管理ダム周辺の公園におけるキャンプの利用休止解除について"
-        },
-        {
-            "date": "05/07/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
         {
             "date": "05/07/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
-            "text": "イベントの中止などに関する情報"
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
+            "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
+        },
+        {
+            "date": "05/07/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_5/dir4_5_1/wtbd3i200507164818.shtml",
+            "text": "県立スポーツ施設の休止について"
+        },
+        {
+            "date": "05/07/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wa2y0y200420093126.shtml",
+            "text": "内場池のゲート等の鍵の貸出休止解除について"
         }
     ]
 }
