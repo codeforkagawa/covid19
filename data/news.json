@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "05/07/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wa2y0y200420093126.shtml",
+            "text": "内場池のゲート等の鍵の貸出休止解除について"
+        },
+        {
+            "date": "05/07/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_6/dir7_6_3/wr30nn200421084116.shtml",
+            "text": "県管理ダム周辺の公園におけるキャンプの利用休止解除について"
+        },
+        {
+            "date": "05/07/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
@@ -9,16 +19,6 @@
             "date": "05/07/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
             "text": "イベントの中止などに関する情報"
-        },
-        {
-            "date": "05/07/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_4/dir3_4_1/w2hgid200507114848.shtml",
-            "text": "愛鳥週間ポスター原画作品展の中止について"
-        },
-        {
-            "date": "05/07/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/wr6w7n200507091502.shtml",
-            "text": "県内市町の支援事業 －事業者向け　（新型コロナウイルス感染症関係）"
         }
     ]
 }
