@@ -8,7 +8,7 @@
       :date="patientsSummary.date"
       :unit="$t('人')"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://opendata.pref.kagawa.lg.jp/dataset/359.html'
       "
     />
   </v-col>
