@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/08/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_9/dir1_9_1/w1s3qa200507145414.shtml",
+            "text": "住宅宿泊事業における新型コロナウイルス感染症関連情報について（その2）"
+        },
+        {
+            "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
@@ -9,16 +14,6 @@
             "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/wi0xjr200508111022.shtml",
             "text": "新型コロナウイルス感染症に関連した人権への配慮について"
-        },
-        {
-            "date": "05/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
-            "text": "イベントの中止などに関する情報"
-        },
-        {
-            "date": "05/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_4/dir7_4_7/w4bza1200508103211.shtml",
-            "text": "新型コロナウイルス感染症の拡大防止における県内の道の駅の対応状況の変更について"
         }
     ]
 }
