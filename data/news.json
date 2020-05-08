@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/08/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wx7gdk200508225940.shtml",
+            "text": "新型コロナウイルス感染症に関連した患者（21例目・22例目）に関する情報について"
+        },
+        {
+            "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
@@ -14,11 +19,6 @@
             "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_1/dir1_1_7/wnnhgu200508153010.shtml",
             "text": "丸亀市保健福祉センター（ひまわりセンター）における、かがわ縁結び支援センター（EN－MUSUかがわ）の出張登録の休止期間の延長について"
-        },
-        {
-            "date": "05/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_9/dir1_9_1/w1s3qa200507145414.shtml",
-            "text": "住宅宿泊事業における新型コロナウイルス感染症関連情報について（その2）"
         }
     ]
 }
