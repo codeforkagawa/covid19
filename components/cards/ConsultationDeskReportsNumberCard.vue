@@ -8,7 +8,7 @@
       :date="querents.date"
       :unit="$t('件.reports')"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://opendata.pref.kagawa.lg.jp/dataset/359.html'
       "
     />
     <!-- 件.reports = 窓口相談件数 -->

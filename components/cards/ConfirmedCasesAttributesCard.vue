@@ -8,7 +8,7 @@
       :date="patients.date"
       :info="sumInfoOfPatients"
       :url="
-        'https://www.pref.kagawa.lg.jp/content/etc/subsite/kansenshoujouhou/kansen/sr5cfn200127213457.shtml#kennai'
+        'https://opendata.pref.kagawa.lg.jp/dataset/359.html'
       "
       :source="$t('オープンデータを入手')"
       :custom-sort="customSort"
