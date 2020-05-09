@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "05/09/2020",
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wupnqp200414195032.shtml",
+            "text": "新型コロナウイルス感染拡大 「香川県緊急事態」宣言"
+        },
+        {
             "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
@@ -14,11 +19,6 @@
             "date": "05/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w0o5nk200509000212.shtml",
             "text": "本日（5月8日）の新型コロナウイルス感染症PCR検査の終了について"
-        },
-        {
-            "date": "05/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3k150200315183532.shtml",
-            "text": "これまでの主な経過　－新型コロナウイルス感染症に対する主な対応状況"
         }
     ]
 }
