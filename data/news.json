@@ -1,3 +1,14 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "05/15/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_1/dir5_1_2/w5v6gx200514160248.shtml",
+            "text": "「水辺の納涼祭」の開催の中止について"
+        },
+        {
+            "date": "05/15/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/wtda76200429143041.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見"
+        }
+    ]
 }
