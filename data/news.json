@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/15/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wl0hiv200515182453.shtml",
+            "text": "本日（5月15日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "05/15/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wpgw1e200424225456.shtml",
             "text": "香川県新型コロナウイルス健康相談コールセンターの開設について"
         },
@@ -14,11 +19,6 @@
             "date": "05/15/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
             "text": "イベントの中止などに関する情報"
-        },
-        {
-            "date": "05/15/2020",
-            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
-            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         }
     ]
 }
