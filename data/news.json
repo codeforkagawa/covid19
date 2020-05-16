@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/16/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w9rlnj200516195557.shtml",
+            "text": "本日（5月16日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "05/16/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/ws8ny6200516165740.shtml",
             "text": "新型コロナウイルス感染症に関連した患者（10例目）に関する情報について"
         },
@@ -14,11 +19,6 @@
             "date": "05/15/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3k150200315183532.shtml",
             "text": "これまでの主な経過　－新型コロナウイルス感染症に対する主な対応状況"
-        },
-        {
-            "date": "05/15/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wl0hiv200515182453.shtml",
-            "text": "本日（5月15日）の新型コロナウイルス感染症PCR検査の終了について"
         }
     ]
 }
