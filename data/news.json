@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "05/17/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wqzvjh200517154307.shtml",
+            "text": "本日（5月17日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "05/17/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
             "text": "イベントの中止などに関する情報"
         },
@@ -14,11 +19,6 @@
             "date": "05/16/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/ws8ny6200516165740.shtml",
             "text": "新型コロナウイルス感染症に関連した患者（10例目）に関する情報について"
-        },
-        {
-            "date": "05/15/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_1/wkqseq200514211630.shtml",
-            "text": "県立学校の臨時休業の今後の取扱いについて"
         }
     ]
 }
