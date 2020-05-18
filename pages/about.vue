@@ -32,17 +32,16 @@
         {{ $t('仕組み') }}
       </a>
       {{ $t('と') }}
-      <a href="//covid19-okayama.netlify.com/" target="_blank">
+      <a href="//okayama.stopcovid19.jp/" target="_blank">
         {{ $t('岡山県新型コロナウイルス感染症非公式対策サイト') }}
       </a>
       {{ $t('のソースコードを利用しています。') }}
       <br />
-      <br />
-      {{ $t('当サイトは、') }}
-      <a href="//stopcovid19.metro.tokyo.lg.jp/" target="_blank">
+      {{ $t('また、') }}
+      <a href="//www.sakura.ad.jp/" target="_blank">
         {{ $t('さくらインターネット株式会社様') }}
       </a>
-      {{ $t('より無償でサーバーを提供していただいております。') }}
+      {{ $t('よりサーバーを提供していただいております。') }}
       <br />
       <br />
       {{
