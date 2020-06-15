@@ -1,3 +1,9 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "06/14/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w8va0d200614163931.shtml",
+            "text": "本日（6月14日）の新型コロナウイルス感染症PCR検査について"
+        }
+    ]
 }
