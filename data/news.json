@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "06/15/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wpg0du200615195129.shtml",
+            "text": "本日（6月15日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "06/15/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/ws31y2200615102855.shtml",
             "text": "新型コロナウイルス感染症対策（令和2年度6月補正予算案）について"
         },
