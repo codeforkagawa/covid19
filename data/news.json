@@ -1,3 +1,24 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "06/22/2020",
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3zhuy200619112514.shtml",
+            "text": "【動画】第19回香川県新型コロナウイルス対策本部会議の概要について"
+        },
+        {
+            "date": "06/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3zhuy200619112514.shtml",
+            "text": "第19回香川県新型コロナウイルス対策本部会議の概要について"
+        },
+        {
+            "date": "06/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
+        },
+        {
+            "date": "06/22/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        }
+    ]
 }
