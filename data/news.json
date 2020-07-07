@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "07/06/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wi9ehr200706190919.shtml",
+            "text": "本日（7月6日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "07/06/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_1/dir7_1_1/wzvmlv200417100010.shtml",
             "text": "新型コロナウイルス感染症の拡大防止等に関する県税の取扱いについて"
         }
