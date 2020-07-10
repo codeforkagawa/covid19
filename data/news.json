@@ -1,3 +1,14 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "07/10/2020",
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wjws00200709083134.shtml",
+            "text": "【動画】第20回香川県新型コロナウイルス対策本部会議"
+        },
+        {
+            "date": "07/10/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wjws00200709083134.shtml",
+            "text": "第20回香川県新型コロナウイルス対策本部会議の概要について"
+        }
+    ]
 }
