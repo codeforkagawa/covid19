@@ -28,6 +28,8 @@ import detail25 from '@/data/details/25.json'
 import detail26 from '@/data/details/26.json'
 import detail27 from '@/data/details/27.json'
 import detail28 from '@/data/details/28.json'
+import detail29 from '@/data/details/29.json'
+import detail30 from '@/data/details/30.json'
 
 export default () => {
   const details: Detail[] = [
@@ -58,7 +60,9 @@ export default () => {
     detail25,
     detail26,
     detail27,
-    detail28
+    detail28,
+    detail29,
+    detail30
   ]
   return details
 }
