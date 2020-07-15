@@ -1,14 +1,3 @@
 {
-    "newsItems": [
-        {
-            "date": "07/14/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wvv8zl200714212656.shtml",
-            "text": "新型コロナウイルス感染症に関連した患者（29例目）に関する追加の情報について"
-        },
-        {
-            "date": "07/14/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w0wbaw200714222244.shtml",
-            "text": "新型コロナウイルスに関連した患者の発生等について（31例目）"
-        }
-    ]
+    "newsItems": []
 }
