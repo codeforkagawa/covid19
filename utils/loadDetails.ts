@@ -30,6 +30,18 @@ import detail27 from '@/data/details/27.json'
 import detail28 from '@/data/details/28.json'
 import detail29 from '@/data/details/29.json'
 import detail30 from '@/data/details/30.json'
+import detail31 from '@/data/details/31.json'
+import detail32 from '@/data/details/32.json'
+import detail33 from '@/data/details/33.json'
+import detail34 from '@/data/details/34.json'
+import detail35 from '@/data/details/35.json'
+import detail36 from '@/data/details/36.json'
+import detail37 from '@/data/details/37.json'
+import detail38 from '@/data/details/38.json'
+import detail39 from '@/data/details/39.json'
+import detail40 from '@/data/details/40.json'
+import detail41 from '@/data/details/41.json'
+import detail42 from '@/data/details/42.json'
 
 export default () => {
   const details: Detail[] = [
@@ -62,7 +74,19 @@ export default () => {
     detail27,
     detail28,
     detail29,
-    detail30
+    detail30,
+    detail31,
+    detail32,
+    detail33,
+    detail34,
+    detail35,
+    detail36,
+    detail37,
+    detail38,
+    detail39,
+    detail40,
+    detail41,
+    detail42
   ]
   return details
 }

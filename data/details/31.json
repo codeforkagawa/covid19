@@ -1,0 +1,20 @@
+{
+  "step": 2,
+  "info": {
+    "date": "2020/07/14",
+    "residence": "高松市",
+    "age": "80代",
+    "gender": "男性"
+  },
+  "symptoms": [
+    {
+      "date": "2020/07/14",
+      "description": "倦怠感、咳、肺炎"
+    }
+  ],
+  "actionHistories": [
+    {
+      "description": "確認中"
+    }
+  ]
+}
