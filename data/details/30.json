@@ -1,12 +1,25 @@
 {
-  "step": 1,
+  "step": 2,
   "info": {
     "date": "2020/07/13",
     "residence": "高松市",
     "age": "30代",
     "gender": "男性"
   },
-  "symptoms": [],
+  "symptoms": [
+    {
+      "date": "2020/07/13",
+      "description": "検査結果判明 感染症指定医療機関に入院"
+    },
+    {
+      "date": "2020/07/12",
+      "description": "熊本県から帰県"
+    },
+    {
+      "date": "2020/07/08",
+      "description": "熊本県に災害派遣"
+    }
+  ],
   "actionHistories": [
     {
       "description": "豪雨災害の熊本県に8日から応援で派遣され、12日に帰県。熊本県によると、同県多良木町の高校で避難所運営に当たっていた。"
