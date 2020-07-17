@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "07/17/2020",
-            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
-            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
+            "date": "07/18/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
+        },
+        {
+            "date": "07/18/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
         },
         {
             "date": "07/17/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wl8mye200717164247.shtml",
-            "text": "新型コロナウイルスに関連した患者（32例目）に関する追加の情報について"
+            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
+            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         }
     ]
 }
