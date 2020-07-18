@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "07/18/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wbiyig200718110430.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生等について（44例目）速報"
+        },
+        {
+            "date": "07/18/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
             "text": "県施設の臨時休館などに関する情報"
         },
@@ -14,11 +19,6 @@
             "date": "07/17/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wwhrqz200717211709.shtml",
             "text": "新型コロナウイルスに関連した患者の発生等について（43例目）速報"
-        },
-        {
-            "date": "07/17/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w6hnsh200716181622.shtml",
-            "text": "新型コロナウイルスに関連した患者の発生等について（34～42例目）"
         }
     ]
 }
