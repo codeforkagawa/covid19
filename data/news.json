@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "07/27/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir8/dir8_7/dir8_7_2/wf9kp0200721163535.shtml",
+            "text": "新型コロナ検査用試薬の購入に係る一般競争入札について"
+        },
+        {
             "date": "07/26/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wxebtj200726192646.shtml",
             "text": "本日（7月26日）の新型コロナウイルス感染症PCR検査の終了について"
@@ -14,11 +19,6 @@
             "date": "07/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wl0xdu200724182849.shtml",
             "text": "本日（7月24日）の新型コロナウイルス感染症PCR検査の終了について"
-        },
-        {
-            "date": "07/23/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wbhzyg200723203335.shtml",
-            "text": "新型コロナウイルスに関連した患者（45例目）に関する情報について（第2報）"
         }
     ]
 }
