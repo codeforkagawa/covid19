@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "07/28/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/wtda76200429143041.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※7月28日（火曜日）午後9時から"
+        },
+        {
+            "date": "07/28/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/etc/subsite/shohiseikatsu/kyoiku/seminar_202008.shtml",
             "text": "生活設計情報教室「くらしのセミナー」8月の開催予定（一部講座の中止及び変更について）"
         }
