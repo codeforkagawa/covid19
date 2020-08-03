@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "08/03/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wro59l200803174849.shtml",
+            "text": "本日（8月3日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "08/03/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_8/dir6_8_1/wqtws8200803090113.shtml",
             "text": "香川県行政書士会が新型コロナウイルス感染症対応のための無料電話相談窓口を設置を当面の間引き続き実施します"
         }
