@@ -107,7 +107,7 @@ export default () => {
     detail50,
     detail51,
     detail52,
-    detail53,
+    detail53
   ]
   return details
 }
