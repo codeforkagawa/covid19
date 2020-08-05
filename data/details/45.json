@@ -1,11 +1,16 @@
 {
-    "step": 1,
+    "step": 3,
     "info": {
         "date": "2020/07/22",
         "residence": "観音寺市",
         "age": "40代",
         "gender": "男性"
     },
-    "symptoms": [],
+    "symptoms": [
+        {
+            "date": "2020/07/27",
+            "description": "7月22日に発生した本県45例目の患者については、退院基準を満たしたため退院。"
+        }
+    ],
     "actionHistories": []
 }
