@@ -45,6 +45,14 @@ import detail42 from '@/data/details/42.json'
 import detail43 from '@/data/details/43.json'
 import detail44 from '@/data/details/44.json'
 import detail45 from '@/data/details/45.json'
+import detail46 from '@/data/details/46.json'
+import detail47 from '@/data/details/47.json'
+import detail48 from '@/data/details/48.json'
+import detail49 from '@/data/details/49.json'
+import detail50 from '@/data/details/50.json'
+import detail51 from '@/data/details/51.json'
+import detail52 from '@/data/details/52.json'
+import detail53 from '@/data/details/53.json'
 export default () => {
   const details: Detail[] = [
     detail1,
@@ -91,7 +99,15 @@ export default () => {
     detail42,
     detail43,
     detail44,
-    detail45
+    detail45,
+    detail46,
+    detail47,
+    detail48,
+    detail49,
+    detail50,
+    detail51,
+    detail52,
+    detail53
   ]
   return details
 }

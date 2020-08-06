@@ -1,11 +1,16 @@
 {
-  "step": 1,
+  "step": 3,
   "info": {
     "date": "2020/07/16",
     "residence": "高松市",
     "age": "50代",
     "gender": "男性"
   },
-  "symptoms": [],
+  "symptoms": [
+    {
+      "date": "2020/07/29",
+      "description": "7月16日に発生した本県36例目の患者については、退院基準を満たしたため退院。"
+    }
+  ],
   "actionHistories": []
 }
