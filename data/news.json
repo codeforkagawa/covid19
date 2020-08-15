@@ -1,14 +1,24 @@
 {
     "newsItems": [
         {
-            "date": "08/13/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wgc9bu200318093115.shtml",
-            "text": "SNSによる新型コロナウイルス感染症に関する情報の発信について"
-        },
-        {
-            "date": "08/13/2020",
+            "date": "08/15/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wwcu9y200730100752.shtml",
             "text": "【動画】第23回香川県新型コロナウイルス対策本部会議"
+        },
+        {
+            "date": "08/14/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wqt79h200814211301.shtml",
+            "text": "本日（8月14日）の新型コロナウイルス感染症PCR検査の終了について"
+        },
+        {
+            "date": "08/14/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wan176200814202419.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生等について（62例目）"
+        },
+        {
+            "date": "08/14/2020",
+            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
+            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         }
     ]
 }
