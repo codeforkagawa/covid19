@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "08/17/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "08/17/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara2.shtml",
+            "text": "「NO　コロナハラスメント」啓発キャンペーン　実施内容・手続きなど"
+        },
+        {
+            "date": "08/17/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wwcu9y200730100752.shtml",
             "text": "【動画】第23回香川県新型コロナウイルス対策本部会議"
         },
