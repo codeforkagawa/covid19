@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "08/17/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w4uis6200817205241.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生等について（66・67例目）"
+        },
+        {
+            "date": "08/17/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wnhekg200817173026.shtml",
+            "text": "新型コロナウイルスに関連した患者（64例目・65例目）に関する追加の情報等について"
+        },
+        {
+            "date": "08/17/2020",
             "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
             "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         },
@@ -9,11 +19,6 @@
             "date": "08/17/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
             "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
-        },
-        {
-            "date": "08/17/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara2.shtml",
-            "text": "「NO　コロナハラスメント」啓発キャンペーン　実施内容・手続きなど"
         }
     ]
 }
