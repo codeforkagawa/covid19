@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "08/19/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※8月19日（水曜日）午後3時から"
+        },
+        {
+            "date": "08/19/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wwcu9y200730100752.shtml",
             "text": "【動画】第23回香川県新型コロナウイルス対策本部会議"
         },
