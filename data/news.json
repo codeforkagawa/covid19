@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "08/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/ww16kq200824191814.shtml",
+            "text": "本日（8月24日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "08/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wb4znh200824185843.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生等について（73・74例目）"
+        },
+        {
+            "date": "08/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wki933200824194952.shtml",
             "text": "新型コロナウイルスに関連した患者の発生等について（72例目）"
         },
@@ -9,16 +19,6 @@
             "date": "08/24/2020",
             "url": "https://setouchi-artfest.jp/press-info/press-release/detail329.html",
             "text": "新型コロナウイルス感染症の拡大防止に伴うART SETOUCHI イベント、 作品公開状況のお知らせ（2020年8月24日現在）（外部リンク）"
-        },
-        {
-            "date": "08/24/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
-            "text": "イベントの中止などに関する情報"
-        },
-        {
-            "date": "08/24/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
-            "text": "県施設の臨時休館などに関する情報"
         }
     ]
 }
