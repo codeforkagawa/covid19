@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "08/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
+            "date": "08/24/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
+        },
+        {
+            "date": "08/24/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_4/dir1_4_3/w4kons200824140514.shtml",
             "text": "障害者支援施設等に対する新型コロナウイルス感染症対策研修を開催します"
         }
