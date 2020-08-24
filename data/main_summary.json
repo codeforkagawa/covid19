@@ -1,15 +1,15 @@
 {
-    "date": "2020/08/21 10:34",
+    "date": "2020/08/24 10:04",
     "attr": "検査実施件数",
     "value": 6867,
     "children": [
         {
             "attr": "陽性患者数",
-            "value": 68,
+            "value": 71,
             "children": [
                 {
                     "attr": "入院中",
-                    "value": 7
+                    "value": 10
                 },
                 {
                     "attr": "退院",
