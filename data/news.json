@@ -1,3 +1,9 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "08/26/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※8月26日（水曜日）午後7時から"
+        }
+    ]
 }
