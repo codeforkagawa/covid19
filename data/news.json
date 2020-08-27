@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "08/27/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
+            "date": "08/27/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_6/wpziwp191101082328.shtml",
             "text": "第31回県民スポーツ・レクリエーション祭　ふれあいスポレク広場及びレクリエーション大会の中止について"
         },
@@ -14,11 +19,6 @@
             "date": "08/27/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w8h7jm200821093416.shtml",
             "text": "【動画】第24回香川県新型コロナウイルス対策本部会議"
-        },
-        {
-            "date": "08/27/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_5/dir1_5_1/wg3rtb200514165148.shtml",
-            "text": "新型コロナウイルス感染症に係る国民健康保険料（税）の減免及び傷病手当金の支給"
         }
     ]
 }
