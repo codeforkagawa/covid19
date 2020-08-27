@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "08/27/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "08/27/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w8h7jm200821093416.shtml",
             "text": "【動画】第24回香川県新型コロナウイルス対策本部会議"
         },
@@ -14,11 +19,6 @@
             "date": "08/26/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wyrct9200826204111.shtml",
             "text": "本日（8月26日）の新型コロナウイルス感染症PCR検査の終了等について"
-        },
-        {
-            "date": "08/26/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
-            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
         }
     ]
 }
