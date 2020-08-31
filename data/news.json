@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "08/31/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_2/dir6_2_1/wht44c200827165832.shtml",
+            "text": "サンメッセ香川（香川県産業交流センター）貸館休止のお知らせ"
+        },
+        {
             "date": "08/30/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/we32xo200830152408.shtml",
             "text": "本日（8月30日）の新型コロナウイルス感染症PCR検査の終了等について"
@@ -14,11 +19,6 @@
             "date": "08/29/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wzni2u200829184210.shtml",
             "text": "本日（8月29日）の新型コロナウイルス感染症PCR検査の終了等について"
-        },
-        {
-            "date": "08/29/2020",
-            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
-            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         }
     ]
 }
