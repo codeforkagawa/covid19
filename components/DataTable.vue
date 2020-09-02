@@ -15,11 +15,6 @@
       :custom-sort="customSort"
       class="cardTable"
     >
-      <template v-slot:item.="{ item }">
-        <div class="detailLink" @click="open(item.idx)">
-          詳細を見る
-        </div>
-      </template>
     </v-data-table>
     <div class="note">
       {{ $t('※退院には、死亡退院を含む') }}
