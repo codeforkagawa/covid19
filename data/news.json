@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/02/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wj4nq4200902205830.shtml",
+            "text": "本日（9月2日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "09/02/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w3z9vm200902184916.shtml",
             "text": "新型コロナウイルスに関連した患者の発生等について（80例目、81例目、82例目、83例目）"
         },
