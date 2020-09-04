@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/04/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_5/dir7_5_1/wternk200904153436.shtml",
+            "text": "香西西地区港湾緑地「パークゴルフ場」臨時休業のお知らせ"
+        },
+        {
+            "date": "09/04/2020",
             "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
             "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
         }
