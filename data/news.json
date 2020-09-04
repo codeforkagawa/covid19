@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/04/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wgistl200904193605.shtml",
+            "text": "本日（9月4日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "09/04/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_5/dir7_5_1/wternk200904153436.shtml",
             "text": "香西西地区港湾緑地「パークゴルフ場」臨時休業のお知らせ"
         },
