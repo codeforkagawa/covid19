@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/05/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w5fd3a200905185008.shtml",
+            "text": "本日（9月5日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "09/05/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/walt95200826192733.shtml",
             "text": "【動画】第25回香川県新型コロナウイルス対策本部会議"
         },
