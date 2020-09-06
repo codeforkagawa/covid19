@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/06/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w90x9l200906182346.shtml",
+            "text": "本日（9月6日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "09/06/2020",
             "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/walt95200826192733.shtml",
             "text": "【動画】第25回香川県新型コロナウイルス対策本部会議"
         },
@@ -14,11 +19,6 @@
             "date": "09/04/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wgistl200904193605.shtml",
             "text": "本日（9月4日）の新型コロナウイルス感染症PCR検査の終了等について"
-        },
-        {
-            "date": "09/04/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir7/dir7_5/dir7_5_1/wternk200904153436.shtml",
-            "text": "香西西地区港湾緑地「パークゴルフ場」臨時休業のお知らせ"
         }
     ]
 }
