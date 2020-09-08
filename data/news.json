@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "09/08/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※9月8日（火曜日）午後4時から"
+        },
+        {
+            "date": "09/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w0dgnl200507213135.shtml",
             "text": "新型コロナウイルス感染症で影響を受けている県民・事業者の皆さまへ"
         },
@@ -9,11 +14,6 @@
             "date": "09/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
             "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
-        },
-        {
-            "date": "09/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wix8ny200907184408.shtml",
-            "text": "第26回香川県新型コロナウイルス対策本部会議及び第5回香川県経済・雇用対策本部会議の開催について"
         }
     ]
 }
