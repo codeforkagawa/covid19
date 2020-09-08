@@ -2,18 +2,18 @@
     "newsItems": [
         {
             "date": "09/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
-            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※9月8日（火曜日）午後4時から"
+            "url": "https://www.youtube.com/playlist?list=PLknEpFml4hJM9W3852JZBbYYRFIAF-qqY",
+            "text": "【動画】新型コロナウイルス関連記者会見　（外部リンク）"
+        },
+        {
+            "date": "09/08/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wlgcbh200908155833.shtml",
+            "text": "新型コロナウイルスに関連した患者（86例目）に関する追加の情報等について"
         },
         {
             "date": "09/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w0dgnl200507213135.shtml",
             "text": "新型コロナウイルス感染症で影響を受けている県民・事業者の皆さまへ"
-        },
-        {
-            "date": "09/08/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
-            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
         }
     ]
 }
