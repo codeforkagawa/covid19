@@ -1,3 +1,19 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "09/09/2020",
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wz3vk5200903135700.shtml",
+            "text": "【動画】第26回香川県新型コロナウイルス対策本部会議"
+        },
+        {
+            "date": "09/09/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wz3vk5200903135700.shtml",
+            "text": "第26回新型コロナウイルス対策本部会議（概要）－令和2年9月9日（水曜日）"
+        },
+        {
+            "date": "09/09/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w4wjpo200907104537.shtml",
+            "text": "新型コロナウイルス感染症対策（令和2年度9月補正予算案）について"
+        }
+    ]
 }
