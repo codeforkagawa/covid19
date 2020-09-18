@@ -1,19 +1,24 @@
 {
     "newsItems": [
         {
-            "date": "09/18/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wqlgs2200918191430.shtml",
-            "text": "本日（9月18日）の新型コロナウイルス感染症PCR検査の終了等について"
+            "date": "09/19/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w3k150200315183532.shtml",
+            "text": "これまでの主な経過　－新型コロナウイルス感染症に対する主な対応状況"
         },
         {
-            "date": "09/18/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w37clc200918172116.shtml",
-            "text": "新型コロナウイルスに関連した患者（94例目）に関する追加の情報等について"
+            "date": "09/19/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wxssn6200305192930.shtml",
+            "text": "県施設の臨時休館などに関する情報"
         },
         {
-            "date": "09/18/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
-            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+            "date": "09/19/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w6t5fp200225155011.shtml",
+            "text": "イベントの中止などに関する情報"
+        },
+        {
+            "date": "09/19/2020",
+            "url": "https://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/wz3vk5200903135700.shtml",
+            "text": "【動画】第26回香川県新型コロナウイルス対策本部会議"
         }
     ]
 }
