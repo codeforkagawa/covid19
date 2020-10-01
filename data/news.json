@@ -2,6 +2,16 @@
     "newsItems": [
         {
             "date": "10/01/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_2/w0dgnl200507213135.shtml",
+            "text": "新型コロナウイルス感染症で影響を受けている県民・事業者の皆さまへ"
+        },
+        {
+            "date": "10/01/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "10/01/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir6/dir6_1/dir6_1_1/w5g6oe200327133410.shtml",
             "text": "雇用支援（新型コロナウイルス感染症関係）"
         }
