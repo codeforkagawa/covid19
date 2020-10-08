@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "10/08/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "10/08/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir4/dir4_1/dir4_1_1/w6aoij201007165531.shtml",
             "text": "多度津高校「ミニ水族館」10月11日の一般公開を中止します"
         }
