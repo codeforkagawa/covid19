@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "10/12/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "10/12/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_1/dir5_1_1/wm4tsj201012162404.shtml",
             "text": "新型コロナウイルス感染症に伴う県内宿泊施設への影響に関する調査について"
         },
