@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "10/12/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir5/dir5_1/dir5_1_1/wm4tsj201012162404.shtml",
+            "text": "新型コロナウイルス感染症に伴う県内宿泊施設への影響に関する調査について"
+        },
+        {
+            "date": "10/12/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
             "text": "【動画】新型コロナウイルス関連記者会見"
         }
