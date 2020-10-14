@@ -1,3 +1,9 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "10/14/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wo8roq201014183731.shtml",
+            "text": "本日（10月14日）の新型コロナウイルス感染症PCR検査の終了等について"
+        }
+    ]
 }
