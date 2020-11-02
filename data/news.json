@@ -1,3 +1,14 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "11/02/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
+            "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
+        },
+        {
+            "date": "11/02/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/w2osgr200721164252.shtml",
+            "text": "新しい動画「STOP！コロナ差別」知事メッセージ動画を公開"
+        }
+    ]
 }
