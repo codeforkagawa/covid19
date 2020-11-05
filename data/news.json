@@ -2,6 +2,11 @@
     "newsItems": [
         {
             "date": "11/05/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wpjmnc201105192926.shtml",
+            "text": "新型コロナウイルスに関連した患者の発生等について（104例目）"
+        },
+        {
+            "date": "11/05/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
             "text": "【動画】新型コロナウイルス関連記者会見"
         }
