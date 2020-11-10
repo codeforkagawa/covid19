@@ -1,19 +1,14 @@
 {
     "newsItems": [
         {
-            "date": "11/06/2020",
+            "date": "11/09/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w8rng2201109211649.shtml",
+            "text": "本日（11月9日）の新型コロナウイルス感染症PCR検査の終了等について"
+        },
+        {
+            "date": "11/09/2020",
             "url": "http://www.pref.kagawa.lg.jp/content/dir3/dir3_11/dir3_11_1/nocorohara1.shtml",
             "text": "「NO　コロナハラスメント　～正しい情報をもとに　冷静な行動を～」啓発キャンペーン"
-        },
-        {
-            "date": "11/06/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wpjmnc201105192926.shtml",
-            "text": "新型コロナウイルスに関連した患者の発生等について（104例目）"
-        },
-        {
-            "date": "11/06/2020",
-            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/w1x1ek201106132137.shtml",
-            "text": "新型コロナウイルスに関連した患者（104例目）に関する追加の情報等について"
         }
     ]
 }
