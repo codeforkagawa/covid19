@@ -1,3 +1,14 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "date": "11/12/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/dir1/dir1_6/dir1_6_1/wpelnm201112152323.shtml",
+            "text": "新型コロナウイルスに関連した患者（109・110例目）に関する追加の情報等について"
+        },
+        {
+            "date": "11/12/2020",
+            "url": "http://www.pref.kagawa.lg.jp/content/koho/kenseimovie/streaming.shtml",
+            "text": "【ライブ配信】新型コロナウイルス関連記者会見　※11月12日（木曜日）午後3時45分から"
+        }
+    ]
 }
