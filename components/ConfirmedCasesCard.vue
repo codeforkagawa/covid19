@@ -2,7 +2,8 @@
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
       <p :class="$style.note">
-        {{ $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない') }}
+        {{ $t('※県外対応となった2人は、上の表に計上していない。') }}<br />
+        {{ $t('※県外での感染確認で、県内対応となった2人は、上の表に計上している。') }}
       </p>
     </template>
     <slot />
