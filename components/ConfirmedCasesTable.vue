@@ -31,9 +31,9 @@
         <li :class="[$style.box, $style.recovered]">
           <div :class="$style.pillar">
             <div :class="$style.content">
-              <span>{{ $t('調査中') }}</span>
+              <span>{{ $t('うち直近1週間') }}</span>
               <span>
-                <strong>{{ 調査中 }}</strong>
+                <strong>{{ うち直近1週間 }}</strong>
                 <span :class="$style.unit">{{ $t('人') }}</span>
               </span>
             </div>
@@ -103,7 +103,7 @@ export default Vue.extend({
       type: Number,
       required: true
     },
-    調査中: {
+    うち直近1週間: {
       type: Number,
       required: true
     }
