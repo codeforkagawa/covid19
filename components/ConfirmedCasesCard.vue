@@ -41,7 +41,7 @@ export default Vue.extend({
     date: {
       type: String,
       default: ''
-    },
-  },
+    }
+  }
 })
 </script>
