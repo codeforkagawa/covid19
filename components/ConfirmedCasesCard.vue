@@ -3,7 +3,11 @@
     <template v-slot:button>
       <p :class="$style.note">
         {{ $t('※県外対応となった2人は、上の表に計上していない。') }}<br />
-        {{ $t('※県外での感染確認で、県内対応となった2人は、上の表に計上している。') }}
+        {{
+          $t(
+            '※県外での感染確認で、県内対応となった2人は、上の表に計上している。'
+          )
+        }}
       </p>
     </template>
     <slot />
@@ -28,16 +32,16 @@ export default Vue.extend({
   props: {
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     titleId: {
       type: String,
-      default: ''
+      default: '',
     },
     date: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 })
 </script>
