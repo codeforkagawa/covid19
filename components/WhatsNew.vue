@@ -26,12 +26,12 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <time
+          <!-- <time
             class="WhatsNew-list-item-anchor-time px-2"
             :datetime="formattedDate(item.date)"
           >
             {{ formattedDateForDisplay(item.date) }}
-          </time>
+          </time> -->
           <span class="WhatsNew-list-item-anchor-link">
             {{ item.text }}
             <v-icon
