@@ -32,15 +32,15 @@ export default Vue.extend({
   props: {
     title: {
       type: String,
-      default: '',
+      default: ''
     },
     titleId: {
       type: String,
-      default: '',
+      default: ''
     },
     date: {
       type: String,
-      default: '',
+      default: ''
     },
   },
 })
