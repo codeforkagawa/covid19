@@ -61,7 +61,7 @@ import PageHeader from '@/components/PageHeader.vue'
 export default Vue.extend({
   components: {
     PageHeader,
-    StaticCard,
+    StaticCard
   },
   head(): MetaInfo {
     return {
