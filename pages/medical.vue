@@ -25,7 +25,7 @@
                 101
             </span>
             <span :class="$style.medical_card_unit">
-                {{ $t("台")}}
+                {{ $t("室") }}
             </span>
         </div>
     </StaticCard>

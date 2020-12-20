@@ -380,5 +380,11 @@
   "綾川町": "Ayagawa Town",
   "琴平町": "Kotohira Town",
   "多度津町": "Tadotsu Town",
-  "まんのう町": "Manno Town"
+  "まんのう町": "Manno Town",
+  "医療体制整備状況": "Medical system maintenance status",
+  "入院患者受入確保病床数": "Number of beds to secure acceptance of inpatients",
+  "宿泊施設受入可能室数": "Number of rooms that can accept accommodation",
+  "床": "beds",
+  "室": "rooms",
+  "※患者数ピーク時に利用する病床として県が医療機関と調整を行い、確保している病床数": "※Number of hospital beds secured by the prefecture in coordination with medical institutions for use during peak patient flow periods"
 }
