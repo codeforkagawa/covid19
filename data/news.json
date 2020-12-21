@@ -1,3 +1,24 @@
 {
-    "newsItems": []
+    "newsItems": [
+        {
+            "url": "https://www.pref.kagawa.lg.jp//kocho/chijipage/chijiaisatsu/20201221.html",
+            "text": "【動画】香川県知事からのメッセージ～穏やかな年末年始を過ごすために～"
+        },
+        {
+            "url": "https://www.pref.kagawa.lg.jp//yakumukansen/kansensyoujouhou/topics/syouzu_kensa20201215.html",
+            "text": "小豆保健所での新型コロナウイルスの検査について"
+        },
+        {
+            "url": "https://www.town.tonosho.kagawa.jp/material/files/group/11/2012022.pdf",
+            "text": "土庄町内公共施設における新型コロナウイルス感染防止の対応について【土庄町】（PDF：588.2KB）（外部サイトへリンク）"
+        },
+        {
+            "url": "https://www.town.shodoshima.lg.jp/gyousei/kinkyu/shingatakorona/ibento/5148.html",
+            "text": "小豆島町のイベント等の対応について【小豆島町】（外部サイトへリンク）"
+        },
+        {
+            "url": "https://www.town.shodoshima.lg.jp/gyousei/kakuka/somu/shisetsu/5147.html",
+            "text": "小豆島町内公共施設等の利用制限について【小豆島町】（外部サイトへリンク）"
+        }
+    ]
 }
