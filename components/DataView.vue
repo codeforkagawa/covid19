@@ -13,11 +13,11 @@
       <div class="DataView-Description">
         <slot name="description" />
       </div>
-      <div>
-        <slot name="button" />
-      </div>
       <div class="DataView-CardText">
         <slot />
+      </div>
+      <div>
+        <slot name="button" />
       </div>
       <div class="DataView-Description">
         <slot name="footer-description" />

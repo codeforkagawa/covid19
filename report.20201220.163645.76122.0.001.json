@@ -1,0 +1,533 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20201220.163645.76122.0.001.json",
+    "dumpEventTime": "2020-12-20T16:36:45Z",
+    "dumpEventTimeStamp": "1608449805606",
+    "processId": 76122,
+    "threadId": null,
+    "cwd": "/home/nao/naoprograms/covid19",
+    "commandLine": [
+      "/usr/local/bin/node",
+      "/home/nao/naoprograms/covid19/node_modules/.bin/nuxt-ts"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.4.0-58-generic",
+    "osVersion": "#64-Ubuntu SMP Wed Dec 9 08:16:25 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 2165,
+        "user": 26180300,
+        "nice": 47400,
+        "sys": 5159200,
+        "idle": 328492400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 2206,
+        "user": 25570600,
+        "nice": 43400,
+        "sys": 5529200,
+        "idle": 104543200,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 2208,
+        "user": 25667600,
+        "nice": 45600,
+        "sys": 6136600,
+        "idle": 104378800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 2119,
+        "user": 26144200,
+        "nice": 42200,
+        "sys": 6063300,
+        "idle": 104279400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 3207,
+        "user": 25631200,
+        "nice": 34000,
+        "sys": 5963900,
+        "idle": 104293900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 5 3500 6-Core Processor",
+        "speed": 2128,
+        "user": 26067600,
+        "nice": 48700,
+        "sys": 5365800,
+        "idle": 104217500,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlxd0374510c07b",
+        "internal": false,
+        "mac": "d0:37:45:10:c0:7b",
+        "address": "192.168.2.119",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlxd0374510c07b",
+        "internal": false,
+        "mac": "d0:37:45:10:c0:7b",
+        "address": "2405:6587:4ea0:b00:91a:e7ba:2260:e0d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlxd0374510c07b",
+        "internal": false,
+        "mac": "d0:37:45:10:c0:7b",
+        "address": "2405:6587:4ea0:b00:1040:a0c4:6159:34aa",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlxd0374510c07b",
+        "internal": false,
+        "mac": "d0:37:45:10:c0:7b",
+        "address": "fe80::f130:6296:ff8a:743b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "nao"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b46955",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000a09c8f",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b7d71e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b7da99",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d2a1f5",
+      "symbol": " [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d2a886",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d37105",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d37fb5",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d3aa6c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0163b",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x000000000104300e",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000000013c5b79",
+      "symbol": " [/usr/local/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151653376,
+    "totalCommittedMemory": 2150334592,
+    "usedMemory": 2141147840,
+    "availableMemory": 50099720,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1554496,
+        "capacity": 1047456,
+        "used": 543992,
+        "available": 503464
+      },
+      "old_space": {
+        "memorySize": 1980637184,
+        "committedMemory": 1980339192,
+        "capacity": 1976643520,
+        "used": 1974256640,
+        "available": 2386880
+      },
+      "code_space": {
+        "memorySize": 4624384,
+        "committedMemory": 4377088,
+        "capacity": 4022528,
+        "used": 4022528,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 18878464,
+        "committedMemory": 18876680,
+        "capacity": 17474080,
+        "used": 17474080,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 143949824,
+        "committedMemory": 143949824,
+        "capacity": 143723040,
+        "used": 143723040,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1204224,
+        "committedMemory": 1204224,
+        "capacity": 1094752,
+        "used": 1094752,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 111.175,
+    "kernelCpuSeconds": 10.4905,
+    "cpuConsumptionPercent": 76.0411,
+    "maxRss": 2483548160,
+    "pageFaults": {
+      "IORequired": 19,
+      "IONotRequired": 1920175
+    },
+    "fsActivity": {
+      "reads": 2160,
+      "writes": 408
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 52.5471,
+    "kernelCpuSeconds": 3.0778,
+    "cpuConsumptionPercent": 34.7655,
+    "fsActivity": {
+      "reads": 2160,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "npm_package_devDependencies__mdi_font": "^5.0.45",
+    "npm_package_devDependencies_vue_axe": "^1.0.8",
+    "npm_package_devDependencies_stylelint_config_prettier": "^8.0.1",
+    "npm_package_devDependencies__nuxt_typescript_build": "^0.6.0",
+    "LANGUAGE": "ja:en",
+    "USER": "nao",
+    "LC_TIME": "ja_JP.UTF-8",
+    "npm_package_devDependencies_jest": "^24.1.0",
+    "npm_package_scripts_dev_no_axe": "cross-env NODE_ENV=dev-no-axe nuxt-ts",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.5 npm/? node/v12.16.3 linux x64",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "43730",
+    "XDG_SESSION_TYPE": "x11",
+    "GIT_ASKPASS": "/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "npm_node_execpath": "/usr/local/bin/node",
+    "npm_package_devDependencies_vue_jest": "^4.0.0-0",
+    "npm_package_devDependencies_nodemon": "^1.18.9",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "npm_package_dependencies_vue_scrollto": "^2.17.1",
+    "HOME": "/home/nao",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "OLDPWD": "/home/nao/naoprograms",
+    "npm_package_devDependencies_eslint_plugin_tsdoc": "^0.2.3",
+    "npm_package_dependencies_vuex": "^3.3.0",
+    "npm_package_dependencies_chart_js": "^2.9.3",
+    "TERM_PROGRAM_VERSION": "1.52.1",
+    "DESKTOP_SESSION": "ubuntu",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.0",
+    "npm_package_dependencies_vue_spinner": "^1.0.3",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/code.desktop",
+    "npm_package_engines_node": ">=10.19.0",
+    "npm_config_init_license": "MIT",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "GTK_MODULES": "gail:atk-bridge",
+    "VSCODE_GIT_ASKPASS_MAIN": "/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.0.0",
+    "npm_package_dependencies_vuex_module_decorators": "^0.17.0",
+    "npm_package_lint_staged____css_scss_vue_": "stylelint",
+    "npm_config_version_tag_prefix": "v",
+    "LC_MONETARY": "ja_JP.UTF-8",
+    "VSCODE_GIT_ASKPASS_NODE": "/usr/share/code/code",
+    "MANAGERPID": "43536",
+    "npm_package_devDependencies_stylelint_config_standard": "^20.0.0",
+    "npm_package_devDependencies_rimraf": "^3.0.2",
+    "npm_package_dependencies__types_mapbox_gl": "^1.8.0",
+    "npm_package_scripts_lint_fix": "eslint './**/*.{js,ts,vue}' --fix",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "npm_package_devDependencies_stylelint_scss": "^3.15.0",
+    "npm_package_devDependencies_husky": "^4.2.3",
+    "npm_package_dependencies_dayjs": "^1.8.21",
+    "npm_package_dependencies__nuxtjs_pwa": "^3.0.0-0",
+    "COLORTERM": "truecolor",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "44603",
+    "npm_package_scripts_clean_hardsource": "rimraf ./node_modules/.cache/hard-source",
+    "npm_package_description": "香川県 新型コロナウイルス感染症非公式対策サイト",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_dependencies_nuxt": "^2.11.0",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "IM_CONFIG_PHASE": "1",
+    "npm_package_devDependencies_prettier": "^1.19.1",
+    "npm_package_devDependencies_nuxt_svg_loader": "^1.2.0",
+    "npm_package_devDependencies_babel_jest": "^24.1.0",
+    "npm_package_scripts_dev": "cross-env NODE_ENV=development nuxt-ts",
+    "LOGNAME": "nao",
+    "JOURNAL_STREAM": "9:383529",
+    "_": "/usr/bin/yarn",
+    "npm_package_dependencies_express": "^4.16.4",
+    "npm_package_scripts_generate_dev": "cross-env GENERATE_ENV=development nuxt-ts generate",
+    "npm_package_private": "true",
+    "npm_config_prefix": "/usr/local",
+    "XDG_SESSION_CLASS": "user",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "npm_package_scripts_lint": "eslint './**/*.{js,ts,vue}'",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "USERNAME": "nao",
+    "TERM": "xterm-256color",
+    "npm_package_devDependencies_stylelint": "^13.2.0",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "RBENV_SHELL": "bash",
+    "npm_package_scripts_start": "cross-env NODE_ENV=production nuxt-ts start",
+    "npm_config_ignore_scripts": "",
+    "WINDOWPATH": "2",
+    "PATH": "/tmp/yarn--1608449645130-0.7264347717107122:/home/nao/naoprograms/covid19/node_modules/.bin:/home/nao/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/home/nao/.rbenv/shims:/home/nao/.rbenv/bin:/usr/local/go/bin:/home/nao/.cargo/bin:/home/nao/.rbenv/shims:/home/nao/.rbenv/bin:/home/nao/.cargo/bin:/home/nao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "NODE": "/usr/local/bin/node",
+    "SESSION_MANAGER": "local/nao:@/tmp/.ICE-unix/43765,unix/nao:/tmp/.ICE-unix/43765",
+    "INVOCATION_ID": "3b1006b8c4aa4ab38aaab8cccfe9e3ac",
+    "npm_package_devDependencies__nuxtjs_eslint_config_typescript": "^1.0.2",
+    "npm_package_lint_staged____js_ts_css_vue__0": "eslint --fix",
+    "npm_package_name": "covid19",
+    "XDG_MENU_PREFIX": "gnome-",
+    "LC_ADDRESS": "ja_JP.UTF-8",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "DISPLAY": ":1",
+    "npm_package_devDependencies_nuxt_purgecss": "^0.2.1",
+    "npm_package_devDependencies__fullhuman_postcss_purgecss": "^2.1.0",
+    "LANG": "ja_JP.UTF-8",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "LC_TELEPHONE": "ja_JP.UTF-8",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies__vue_test_utils": "^1.0.0-beta.27",
+    "XMODIFIERS": "@im=ibus",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-18843f863c.sock",
+    "TERM_PROGRAM": "vscode",
+    "npm_lifecycle_script": "cross-env NODE_ENV=development nuxt-ts",
+    "npm_package_scripts_stylelint_fix": "stylelint --fix '**/*.{css,scss,vue}'",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "npm_package_scripts_test": "echo 'skip tests (there is no test)'",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "LC_NAME": "ja_JP.UTF-8",
+    "npm_lifecycle_event": "dev",
+    "npm_package_dependencies__types_d3": "^5.7.2",
+    "npm_package_dependencies__nuxtjs_dotenv": "^1.4.0",
+    "npm_package_version": "1.0.0",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "ubuntu",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_package_devDependencies_lint_staged": "^10.0.8",
+    "npm_package_scripts_build": "nuxt-ts build",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "LC_MEASUREMENT": "ja_JP.UTF-8",
+    "npm_package_dependencies_vue_chartjs": "^3.5.0",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "LC_IDENTIFICATION": "ja_JP.UTF-8",
+    "npm_package_license": "MIT",
+    "npm_package_scripts_lint_and_generate": "eslint './**/*.{js,ts,vue}' && nuxt-ts generate",
+    "npm_package_scripts_generate": "eslint './**/*.{js,ts,vue}' && nuxt-ts generate",
+    "npm_config_strict_ssl": "true",
+    "QT_IM_MODULE": "ibus",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.2",
+    "npm_package_devDependencies__nuxtjs_google_analytics": "^2.2.3",
+    "npm_package_scripts_stylelint": "stylelint '**/*.{css,scss,vue}'",
+    "PWD": "/home/nao/naoprograms/covid19",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/home/nao/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "npm_package_devDependencies__types_chart_js": "^2.9.14",
+    "npm_package_devDependencies__nuxtjs_stylelint_module": "^3.2.2",
+    "npm_package_author_name": "香川県",
+    "LC_NUMERIC": "ja_JP.UTF-8",
+    "npm_package_devDependencies_cross_env": "^5.2.1",
+    "npm_package_dependencies_mapbox_gl": "^1.8.1",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "npm_config_network_timeout": "1200000",
+    "LC_PAPER": "ja_JP.UTF-8",
+    "npm_package_dependencies__nuxt_typescript_runtime": "^0.4.0",
+    "npm_package_dependencies_mapbox_gl_vue": "^2.0.4",
+    "NODE_ENV": "development",
+    "INIT_CWD": "/home/nao/naoprograms/covid19",
+    "EDITOR": "code",
+    "npm_package_dependencies_nuxt_i18n": "^6.6.0",
+    "npm_package_scripts_generate_deploy": "cross-env GENERATE_ENV=production nuxt-ts generate",
+    "VUE_ENV": "server"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 63525,
+      "hard": 63525
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/home/nao/naoprograms/covid19/node_modules/fibers/bin/linux-x64-72-glibc/fibers.node"
+  ]
+}
