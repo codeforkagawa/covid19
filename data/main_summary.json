@@ -1,19 +1,19 @@
 {
-    "date": "2020/12/24 13:15",
+    "date": "2020/12/24 14:16",
     "attr": "検査実施件数",
     "value": 21148,
     "children": [
         {
             "attr": "陽性患者数",
-            "value": 231,
+            "value": 258,
             "children": [
                 {
                     "attr": "入院中",
-                    "value": 42
+                    "value": 68
                 },
                 {
                     "attr": "退院",
-                    "value": 186
+                    "value": 187
                 },
                 {
                     "attr": "死亡",
