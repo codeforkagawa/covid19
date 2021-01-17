@@ -1,19 +1,19 @@
 {
-    "date": "2021/01/17 12:49",
+    "date": "2021/01/17 13:27",
     "attr": "検査実施件数",
     "value": 21691,
     "children": [
         {
             "attr": "陽性患者数",
-            "value": 520,
+            "value": 528,
             "children": [
                 {
                     "attr": "入院中",
-                    "value": 195
+                    "value": 192
                 },
                 {
                     "attr": "退院",
-                    "value": 320
+                    "value": 331
                 },
                 {
                     "attr": "死亡",
