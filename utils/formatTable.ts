@@ -43,7 +43,7 @@ export default (data: DataType[]) => {
     const TableRow: TableDataType = {
       idx,
       公表日: dayjs(d['リリース日']).format('MM/DD') ?? '不明',
-      居住地: d['居住地'] ?? '調査中',
+      居住地: d['居住地'] ?? 'うち直近1週間',
       年代: d['年代'] ?? '不明',
       性別: d['性別'] ?? '不明',
     }
