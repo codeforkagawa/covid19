@@ -135,7 +135,8 @@ export default Vue.extend({
         {
           icon: 'CovidIcon',
           title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
+          link:
+            'https://www.pref.kagawa.lg.jp/yakumukansen/kansensyoujouhou/kansen/sr5cfn200127213457.html#soudan01',
           divider: true
         },
         {
